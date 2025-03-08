@@ -1,0 +1,643 @@
+Job Title,Required Skills,Category
+Software Engineer,"Debugging, Object-Oriented Programming (OOP), Data Structures, C++, Algorithms, Python, Problem-Solving, Java, SQL",Software Development
+Data Scientist,"NumPy, Statistical Analysis, A/B Testing, Machine Learning, R, Python, SQL, Deep Learning, Pandas, Data Visualization",Data Science & AI
+Machine Learning Engineer,"PyTorch, Deep Learning, Reinforcement Learning, Feature Engineering, TensorFlow, NLP, Scikit-learn, Computer Vision, Data Preprocessing, Model Optimization",Data Science & AI
+Web Developer,"React, HTML, CSS, Node.js, Bootstrap, REST APIs, JavaScript, Vue.js, Web Performance Optimization, Git",Software Development
+UX/UI Designer,"Color Theory, User Research, Prototyping, Wireframing, Design Thinking, Usability Testing, Sketch, Figma, Typography, Adobe XD",Design & UX
+Cybersecurity Analyst,"IDS/IPS, Cryptography, Ethical Hacking, Firewalls, Network Security, Security Compliance, Incident Response, Penetration Testing, Risk Management, SIEM",Cybersecurity
+Cloud Engineer,"Terraform, Docker, Networking, Serverless Computing, CI/CD, Google Cloud Platform, AWS, Azure, Cloud Security, Kubernetes",IT & Cloud Computing
+Software Engineer,"Debugging, Object-Oriented Programming (OOP), Data Structures, C++, Algorithms, Python, Problem-Solving, Java, SQL, Git",Software Development
+Software Engineer,"SQL, C++, Data Structures, Problem-Solving, Python, Debugging, Java, Git, Object-Oriented Programming (OOP), Algorithms",Software Development
+Software Engineer,"Data Structures, Object-Oriented Programming (OOP), Git, Debugging, Algorithms, Python, C++, Problem-Solving, Java, SQL",Software Development
+Software Engineer,"Git, Data Structures, Object-Oriented Programming (OOP), Java, Algorithms, Debugging, SQL, Problem-Solving, Python, C++",Software Development
+Software Engineer,"SQL, Java, Debugging, Python, Problem-Solving, C++, Git, Algorithms, Data Structures, Object-Oriented Programming (OOP)",Software Development
+Data Scientist,"NumPy, Statistical Analysis, A/B Testing, Machine Learning, R, Python, SQL, Deep Learning, Pandas, Data Visualization",Data Science & AI
+Data Scientist,"Statistical Analysis, Machine Learning, R, NumPy, A/B Testing, SQL, Pandas, Python, Data Visualization, Deep Learning",Data Science & AI
+Data Scientist,"Statistical Analysis, Deep Learning, NumPy, Machine Learning, A/B Testing, SQL, Pandas, Data Visualization, R, Python",Data Science & AI
+Data Scientist,"Pandas, R, Deep Learning, Machine Learning, NumPy, A/B Testing, Statistical Analysis, SQL, Data Visualization, Python",Data Science & AI
+Data Scientist,"Pandas, R, NumPy, A/B Testing, Statistical Analysis, SQL, Data Visualization, Machine Learning, Deep Learning, Python",Data Science & AI
+Data Scientist,"Pandas, SQL, NumPy, Statistical Analysis, A/B Testing, Data Visualization, Machine Learning, Python, Deep Learning, R",Data Science & AI
+Data Scientist,"Machine Learning, Statistical Analysis, SQL, R, A/B Testing, Deep Learning, Pandas, Data Visualization, NumPy, Python",Data Science & AI
+Web Developer,"React, HTML, CSS, Node.js, Bootstrap, REST APIs, JavaScript, Vue.js, Web Performance Optimization, Git",Software Development
+Web Developer,"JavaScript, CSS, Node.js, Web Performance Optimization, Vue.js, Git, HTML, REST APIs, Bootstrap, React",Software Development
+Web Developer,"REST APIs, JavaScript, Node.js, Vue.js, HTML, Web Performance Optimization, React, Bootstrap, Git, CSS",Software Development
+Web Developer,"Git, JavaScript, CSS, Vue.js, Node.js, React, Bootstrap, REST APIs, Web Performance Optimization, HTML",Software Development
+Web Developer,"Web Performance Optimization, Vue.js, React, CSS, Node.js, Bootstrap, HTML, JavaScript, REST APIs, Git",Software Development
+Web Developer,"CSS, HTML, Bootstrap, REST APIs, Vue.js, React, Node.js, Web Performance Optimization, JavaScript, Git",Software Development
+Web Developer,"REST APIs, HTML, JavaScript, CSS, React, Vue.js, Bootstrap, Git, Web Performance Optimization, Node.js",Software Development
+UX/UI Designer,"Color Theory, User Research, Prototyping, Wireframing, Design Thinking, Usability Testing, Sketch, Figma, Typography, Adobe XD",Design & UX
+UX/UI Designer,"Prototyping, Adobe XD, Usability Testing, Sketch, User Research, Typography, Color Theory, Design Thinking, Figma, Wireframing",Design & UX
+UX/UI Designer,"Prototyping, Usability Testing, Color Theory, Wireframing, Adobe XD, Sketch, User Research, Design Thinking, Figma, Typography",Design & UX
+UX/UI Designer,"Prototyping, Color Theory, Typography, Design Thinking, Wireframing, Usability Testing, Sketch, User Research, Figma, Adobe XD",Design & UX
+UX/UI Designer,"Color Theory, Sketch, Design Thinking, User Research, Wireframing, Prototyping, Typography, Figma, Usability Testing, Adobe XD",Design & UX
+UX/UI Designer,"Typography, Adobe XD, Color Theory, Figma, Wireframing, Design Thinking, User Research, Usability Testing, Prototyping, Sketch",Design & UX
+UX/UI Designer,"Sketch, Design Thinking, Wireframing, Typography, Prototyping, Adobe XD, Usability Testing, User Research, Figma, Color Theory",Design & UX
+UX/UI Designer,"Color Theory, Wireframing, Figma, Design Thinking, Sketch, Typography, Adobe XD, Usability Testing, Prototyping, User Research",Design & UX
+UX/UI Designer,"Prototyping, Sketch, Figma, Typography, Color Theory, Usability Testing, User Research, Adobe XD, Design Thinking, Wireframing",Design & UX
+UX/UI Designer,"User Research, Color Theory, Typography, Sketch, Wireframing, Usability Testing, Design Thinking, Adobe XD, Prototyping, Figma",Design & UX
+Cybersecurity Analyst,"IDS/IPS, Cryptography, Ethical Hacking, Firewalls, Network Security, Security Compliance, Incident Response, Penetration Testing, Risk Management, SIEM",Cybersecurity
+Cloud Engineer,"Kubernetes, CI/CD, Serverless Computing, Docker, AWS, Terraform, Cloud Security, Networking, Google Cloud Platform, Azure",IT & Cloud Computing
+Cloud Engineer,"CI/CD, Networking, Azure, Docker, Kubernetes, Cloud Security, Terraform, AWS, Google Cloud Platform, Serverless Computing",IT & Cloud Computing
+Cloud Engineer,"Terraform, AWS, CI/CD, Docker, Serverless Computing, Google Cloud Platform, Cloud Security, Azure, Kubernetes, Networking",IT & Cloud Computing
+Cloud Engineer,"Google Cloud Platform, Terraform, Docker, Serverless Computing, Azure, AWS, Networking, Cloud Security, Kubernetes, CI/CD",IT & Cloud Computing
+Cloud Engineer,"Kubernetes, AWS, Cloud Security, Docker, Serverless Computing, Terraform, Google Cloud Platform, Azure, Networking, CI/CD",IT & Cloud Computing
+Cloud Engineer,"Terraform, Docker, AWS, Cloud Security, CI/CD, Networking, Google Cloud Platform, Serverless Computing, Kubernetes, Azure",IT & Cloud Computing
+Cloud Engineer,"AWS, Kubernetes, CI/CD, Cloud Security, Google Cloud Platform, Serverless Computing, Docker, Azure, Networking, Terraform",IT & Cloud Computing
+Database Administrator,"MySQL, Data Warehousing, Indexing, NoSQL, Database Optimization, Query Optimization, Oracle DB, SQL, PostgreSQL, Backup & Recovery, MongoDB",Other
+Database Administrator,"Backup & Recovery, Indexing, Data Warehousing, MySQL, Query Optimization, Database Optimization, PostgreSQL, Oracle DB, MongoDB, SQL, NoSQL",Other
+Database Administrator,"Database Optimization, Query Optimization, Oracle DB, Data Warehousing, MySQL, PostgreSQL, NoSQL, Indexing, Backup & Recovery, SQL, MongoDB",Other
+Database Administrator,"NoSQL, Backup & Recovery, Indexing, SQL, Oracle DB, Data Warehousing, Database Optimization, MongoDB, MySQL, PostgreSQL, Query Optimization",Other
+Database Administrator,"Oracle DB, SQL, Database Optimization, PostgreSQL, MySQL, MongoDB, Query Optimization, Data Warehousing, Backup & Recovery, Indexing, NoSQL",Other
+Database Administrator,"PostgreSQL, Data Warehousing, Backup & Recovery, Indexing, MongoDB, NoSQL, MySQL, Oracle DB, SQL, Query Optimization, Database Optimization",Other
+Database Administrator,"Database Optimization, MySQL, SQL, Oracle DB, PostgreSQL, NoSQL, MongoDB, Query Optimization, Data Warehousing, Backup & Recovery, Indexing",Other
+Database Administrator,"Data Warehousing, MongoDB, PostgreSQL, SQL, Oracle DB, Backup & Recovery, Indexing, MySQL, NoSQL, Database Optimization, Query Optimization",Other
+Database Administrator,"PostgreSQL, Data Warehousing, Indexing, Backup & Recovery, Oracle DB, Database Optimization, NoSQL, MySQL, MongoDB, SQL, Query Optimization",Other
+Network Engineer,"Routing & Switching, Cisco, BGP, DNS, VoIP, Network Configuration, Firewalls, Load Balancing, VLANs, SD-WAN, TCP/IP",Other
+Network Engineer,"Cisco, Firewalls, Routing & Switching, DNS, VLANs, Load Balancing, VoIP, BGP, Network Configuration, TCP/IP, SD-WAN",Other
+Network Engineer,"TCP/IP, Network Configuration, DNS, SD-WAN, VLANs, Cisco, Load Balancing, Routing & Switching, Firewalls, VoIP, BGP",Other
+Network Engineer,"TCP/IP, VoIP, Routing & Switching, VLANs, Cisco, BGP, Firewalls, DNS, Network Configuration, Load Balancing, SD-WAN",Other
+Network Engineer,"SD-WAN, Routing & Switching, VoIP, Network Configuration, BGP, TCP/IP, VLANs, Cisco, Load Balancing, Firewalls, DNS",Other
+DevOps Engineer,"Cloud Services, Docker, Linux Administration, Terraform, Kubernetes, Monitoring & Logging, Jenkins, Ansible, Shell Scripting, CI/CD",IT & Cloud Computing
+DevOps Engineer,"Monitoring & Logging, Docker, Jenkins, Shell Scripting, Linux Administration, CI/CD, Kubernetes, Cloud Services, Terraform, Ansible",IT & Cloud Computing
+DevOps Engineer,"Jenkins, Terraform, CI/CD, Shell Scripting, Cloud Services, Monitoring & Logging, Docker, Linux Administration, Ansible, Kubernetes",IT & Cloud Computing
+DevOps Engineer,"Linux Administration, Cloud Services, Monitoring & Logging, Terraform, CI/CD, Jenkins, Docker, Kubernetes, Shell Scripting, Ansible",IT & Cloud Computing
+DevOps Engineer,"Jenkins, Docker, Kubernetes, Cloud Services, Terraform, Ansible, CI/CD, Monitoring & Logging, Linux Administration, Shell Scripting",IT & Cloud Computing
+DevOps Engineer,"Monitoring & Logging, Docker, Jenkins, Terraform, Cloud Services, Ansible, Kubernetes, Linux Administration, CI/CD, Shell Scripting",IT & Cloud Computing
+DevOps Engineer,"Terraform, Jenkins, Cloud Services, Kubernetes, CI/CD, Shell Scripting, Monitoring & Logging, Docker, Linux Administration, Ansible",IT & Cloud Computing
+DevOps Engineer,"Docker, Cloud Services, CI/CD, Terraform, Monitoring & Logging, Linux Administration, Kubernetes, Shell Scripting, Jenkins, Ansible",IT & Cloud Computing
+DevOps Engineer,"CI/CD, Shell Scripting, Terraform, Jenkins, Cloud Services, Kubernetes, Ansible, Monitoring & Logging, Docker, Linux Administration",IT & Cloud Computing
+Blockchain Developer,"Tokenomics, Distributed Systems, Smart Contracts, Security Audits, Solidity, Hyperledger, Consensus Algorithms, Web3.js, Ethereum, Cryptography",Other
+Blockchain Developer,"Hyperledger, Web3.js, Tokenomics, Security Audits, Cryptography, Solidity, Smart Contracts, Consensus Algorithms, Distributed Systems, Ethereum",Other
+Blockchain Developer,"Distributed Systems, Security Audits, Solidity, Consensus Algorithms, Tokenomics, Cryptography, Hyperledger, Web3.js, Smart Contracts, Ethereum",Other
+Blockchain Developer,"Tokenomics, Solidity, Consensus Algorithms, Ethereum, Web3.js, Cryptography, Smart Contracts, Security Audits, Hyperledger, Distributed Systems",Other
+Blockchain Developer,"Solidity, Web3.js, Ethereum, Cryptography, Tokenomics, Smart Contracts, Hyperledger, Security Audits, Distributed Systems, Consensus Algorithms",Other
+Blockchain Developer,"Consensus Algorithms, Ethereum, Solidity, Web3.js, Tokenomics, Hyperledger, Smart Contracts, Distributed Systems, Security Audits, Cryptography",Other
+Machine Learning Engineer,"PyTorch, Deep Learning, Reinforcement Learning, Feature Engineering, TensorFlow, NLP, Scikit-learn, Computer Vision, Data Preprocessing, Model Optimization",Data Science & AI
+Machine Learning Engineer,"TensorFlow, Feature Engineering, Computer Vision, Deep Learning, PyTorch, Reinforcement Learning, Model Optimization, Data Preprocessing, NLP, Scikit-learn",Data Science & AI
+Machine Learning Engineer,"Scikit-learn, Data Preprocessing, Deep Learning, PyTorch, TensorFlow, Reinforcement Learning, Model Optimization, Feature Engineering, NLP, Computer Vision",Data Science & AI
+Machine Learning Engineer,"Feature Engineering, NLP, Deep Learning, Model Optimization, Scikit-learn, Data Preprocessing, Reinforcement Learning, PyTorch, TensorFlow, Computer Vision",Data Science & AI
+Machine Learning Engineer,"Reinforcement Learning, Data Preprocessing, PyTorch, Deep Learning, Computer Vision, NLP, TensorFlow, Model Optimization, Scikit-learn, Feature Engineering",Data Science & AI
+Machine Learning Engineer,"Data Preprocessing, Scikit-learn, Model Optimization, Computer Vision, Feature Engineering, Deep Learning, Reinforcement Learning, TensorFlow, PyTorch, NLP",Data Science & AI
+Artificial Intelligence Engineer,"AI Ethics, Cloud AI, TensorFlow, Speech Recognition, GANs, NLP, Reinforcement Learning, Computer Vision, Deep Learning, Python",Other
+Artificial Intelligence Engineer,"Computer Vision, TensorFlow, Cloud AI, Reinforcement Learning, GANs, AI Ethics, Python, NLP, Deep Learning, Speech Recognition",Other
+Artificial Intelligence Engineer,"Computer Vision, TensorFlow, Speech Recognition, Deep Learning, Python, Reinforcement Learning, Cloud AI, NLP, GANs, AI Ethics",Other
+Artificial Intelligence Engineer,"Computer Vision, Cloud AI, TensorFlow, AI Ethics, NLP, Deep Learning, Python, Speech Recognition, GANs, Reinforcement Learning",Other
+Artificial Intelligence Engineer,"TensorFlow, Reinforcement Learning, Python, GANs, AI Ethics, Computer Vision, Deep Learning, Speech Recognition, Cloud AI, NLP",Other
+Artificial Intelligence Engineer,"Deep Learning, Reinforcement Learning, Computer Vision, NLP, Cloud AI, Python, AI Ethics, TensorFlow, GANs, Speech Recognition",Other
+Artificial Intelligence Engineer,"NLP, Cloud AI, Computer Vision, Deep Learning, Speech Recognition, TensorFlow, AI Ethics, GANs, Reinforcement Learning, Python",Other
+Artificial Intelligence Engineer,"TensorFlow, Reinforcement Learning, Cloud AI, AI Ethics, Computer Vision, Deep Learning, GANs, Speech Recognition, Python, NLP",Other
+Business Analyst,"Tableau, Requirements Gathering, Power BI, Market Research, Data Analysis, Process Improvement, SQL, Stakeholder Communication, Business Intelligence, Excel",Finance & Business
+Business Analyst,"Market Research, Process Improvement, Excel, Business Intelligence, Data Analysis, Power BI, Stakeholder Communication, Tableau, SQL, Requirements Gathering",Finance & Business
+Business Analyst,"Power BI, Stakeholder Communication, SQL, Market Research, Requirements Gathering, Data Analysis, Process Improvement, Tableau, Excel, Business Intelligence",Finance & Business
+Business Analyst,"SQL, Requirements Gathering, Stakeholder Communication, Excel, Power BI, Process Improvement, Market Research, Data Analysis, Business Intelligence, Tableau",Finance & Business
+Business Analyst,"Business Intelligence, Tableau, Power BI, Excel, Process Improvement, Stakeholder Communication, SQL, Market Research, Data Analysis, Requirements Gathering",Finance & Business
+Business Analyst,"Requirements Gathering, Tableau, Data Analysis, Power BI, Process Improvement, SQL, Stakeholder Communication, Excel, Market Research, Business Intelligence",Finance & Business
+Business Analyst,"Excel, Market Research, Tableau, Power BI, Requirements Gathering, Stakeholder Communication, Business Intelligence, Process Improvement, Data Analysis, SQL",Finance & Business
+Business Analyst,"Tableau, Process Improvement, Stakeholder Communication, SQL, Market Research, Business Intelligence, Requirements Gathering, Excel, Power BI, Data Analysis",Finance & Business
+Business Analyst,"Power BI, Stakeholder Communication, Market Research, SQL, Tableau, Process Improvement, Data Analysis, Business Intelligence, Excel, Requirements Gathering",Finance & Business
+Business Analyst,"Excel, Market Research, Stakeholder Communication, Requirements Gathering, Power BI, Tableau, SQL, Data Analysis, Process Improvement, Business Intelligence",Finance & Business
+Product Manager,"Customer Feedback Analysis, Agile, Scrum, Roadmapping, UX/UI Understanding, Market Research, MVP Development, Competitive Analysis, Data-Driven Decision Making, Product Lifecycle",Other
+Product Manager,"MVP Development, Competitive Analysis, UX/UI Understanding, Market Research, Roadmapping, Customer Feedback Analysis, Agile, Scrum, Product Lifecycle, Data-Driven Decision Making",Other
+Product Manager,"Agile, Data-Driven Decision Making, Market Research, Product Lifecycle, UX/UI Understanding, Competitive Analysis, Roadmapping, Customer Feedback Analysis, MVP Development, Scrum",Other
+Product Manager,"Competitive Analysis, Customer Feedback Analysis, UX/UI Understanding, Scrum, Market Research, Data-Driven Decision Making, Agile, Product Lifecycle, MVP Development, Roadmapping",Other
+Product Manager,"Data-Driven Decision Making, Market Research, UX/UI Understanding, Scrum, Roadmapping, Customer Feedback Analysis, Competitive Analysis, MVP Development, Agile, Product Lifecycle",Other
+Product Manager,"Scrum, UX/UI Understanding, Agile, Data-Driven Decision Making, MVP Development, Customer Feedback Analysis, Competitive Analysis, Roadmapping, Market Research, Product Lifecycle",Other
+Product Manager,"Data-Driven Decision Making, Customer Feedback Analysis, Roadmapping, Agile, Market Research, Product Lifecycle, UX/UI Understanding, Scrum, MVP Development, Competitive Analysis",Other
+Product Manager,"Customer Feedback Analysis, Market Research, Roadmapping, UX/UI Understanding, Scrum, Product Lifecycle, Agile, MVP Development, Data-Driven Decision Making, Competitive Analysis",Other
+Product Manager,"Competitive Analysis, Agile, Product Lifecycle, UX/UI Understanding, Scrum, Data-Driven Decision Making, Market Research, Customer Feedback Analysis, MVP Development, Roadmapping",Other
+Product Manager,"Scrum, Data-Driven Decision Making, UX/UI Understanding, Roadmapping, Market Research, Customer Feedback Analysis, MVP Development, Competitive Analysis, Agile, Product Lifecycle",Other
+IT Support Specialist,"Troubleshooting, ITIL, Ticketing Systems, Network Configuration, Security Awareness, Linux, Remote Assistance, Windows, Software Installation, Hardware Repair, Customer Support",IT & Cloud Computing
+IT Support Specialist,"Network Configuration, Windows, Linux, Hardware Repair, Ticketing Systems, Customer Support, Security Awareness, Software Installation, ITIL, Remote Assistance, Troubleshooting",IT & Cloud Computing
+IT Support Specialist,"Troubleshooting, Remote Assistance, Windows, Software Installation, Hardware Repair, Linux, Security Awareness, Network Configuration, Ticketing Systems, Customer Support, ITIL",IT & Cloud Computing
+IT Support Specialist,"ITIL, Network Configuration, Remote Assistance, Troubleshooting, Ticketing Systems, Customer Support, Hardware Repair, Windows, Linux, Software Installation, Security Awareness",IT & Cloud Computing
+IT Support Specialist,"Troubleshooting, Network Configuration, Customer Support, ITIL, Linux, Windows, Hardware Repair, Ticketing Systems, Remote Assistance, Security Awareness, Software Installation",IT & Cloud Computing
+IT Support Specialist,"ITIL, Security Awareness, Network Configuration, Windows, Ticketing Systems, Customer Support, Hardware Repair, Troubleshooting, Linux, Software Installation, Remote Assistance",IT & Cloud Computing
+IT Support Specialist,"Customer Support, Linux, Network Configuration, Software Installation, Hardware Repair, Windows, Security Awareness, Remote Assistance, ITIL, Ticketing Systems, Troubleshooting",IT & Cloud Computing
+IT Support Specialist,"Network Configuration, Hardware Repair, Ticketing Systems, Security Awareness, Remote Assistance, Software Installation, Troubleshooting, ITIL, Customer Support, Windows, Linux",IT & Cloud Computing
+Digital Marketing Manager,"SEO, Google Analytics, Brand Strategy, Conversion Optimization, Copywriting, SEM, PPC, Email Marketing, Social Media Management, Content Marketing, Google Ads",Other
+Digital Marketing Manager,"SEM, SEO, Brand Strategy, PPC, Social Media Management, Google Analytics, Conversion Optimization, Content Marketing, Email Marketing, Copywriting, Google Ads",Other
+Digital Marketing Manager,"Conversion Optimization, Google Analytics, SEM, PPC, Social Media Management, Google Ads, Copywriting, Email Marketing, Content Marketing, Brand Strategy, SEO",Other
+Digital Marketing Manager,"Conversion Optimization, Social Media Management, Google Analytics, SEM, Email Marketing, Copywriting, Content Marketing, SEO, Google Ads, Brand Strategy, PPC",Other
+Digital Marketing Manager,"SEM, Conversion Optimization, Email Marketing, Social Media Management, Copywriting, Google Ads, Brand Strategy, PPC, Google Analytics, Content Marketing, SEO",Other
+Digital Marketing Manager,"Brand Strategy, SEM, Email Marketing, Social Media Management, Conversion Optimization, Google Ads, Copywriting, PPC, Google Analytics, Content Marketing, SEO",Other
+Content Writer,"Research, SEO Writing, Copywriting, Editing, Keyword Research, Content Strategy, Blogging, Storytelling, Proofreading, Social Media Writing",Marketing & Content
+Content Writer,"Storytelling, Proofreading, Keyword Research, SEO Writing, Blogging, Social Media Writing, Research, Content Strategy, Editing, Copywriting",Marketing & Content
+Content Writer,"Blogging, Editing, Keyword Research, Copywriting, Storytelling, Social Media Writing, Content Strategy, Research, SEO Writing, Proofreading",Marketing & Content
+Content Writer,"Copywriting, Proofreading, Keyword Research, Editing, Blogging, Storytelling, Content Strategy, SEO Writing, Social Media Writing, Research",Marketing & Content
+Content Writer,"Proofreading, Keyword Research, Copywriting, Blogging, Storytelling, Research, Social Media Writing, Editing, Content Strategy, SEO Writing",Marketing & Content
+Social Media Manager,"Instagram Marketing, Branding, Facebook Ads, Analytics, Community Management, Engagement Metrics, Hashtag Strategy, Influencer Marketing, Crisis Management, Content Creation",Other
+Social Media Manager,"Influencer Marketing, Engagement Metrics, Content Creation, Community Management, Branding, Hashtag Strategy, Instagram Marketing, Crisis Management, Facebook Ads, Analytics",Other
+Social Media Manager,"Analytics, Facebook Ads, Engagement Metrics, Content Creation, Instagram Marketing, Community Management, Crisis Management, Influencer Marketing, Branding, Hashtag Strategy",Other
+Social Media Manager,"Instagram Marketing, Crisis Management, Influencer Marketing, Engagement Metrics, Community Management, Analytics, Hashtag Strategy, Content Creation, Facebook Ads, Branding",Other
+Social Media Manager,"Facebook Ads, Crisis Management, Content Creation, Community Management, Influencer Marketing, Engagement Metrics, Analytics, Instagram Marketing, Branding, Hashtag Strategy",Other
+Social Media Manager,"Hashtag Strategy, Engagement Metrics, Facebook Ads, Content Creation, Branding, Instagram Marketing, Crisis Management, Community Management, Analytics, Influencer Marketing",Other
+Social Media Manager,"Hashtag Strategy, Influencer Marketing, Facebook Ads, Crisis Management, Engagement Metrics, Analytics, Community Management, Content Creation, Instagram Marketing, Branding",Other
+Social Media Manager,"Instagram Marketing, Content Creation, Analytics, Facebook Ads, Branding, Community Management, Hashtag Strategy, Engagement Metrics, Crisis Management, Influencer Marketing",Other
+Social Media Manager,"Branding, Analytics, Facebook Ads, Engagement Metrics, Instagram Marketing, Influencer Marketing, Hashtag Strategy, Community Management, Crisis Management, Content Creation",Other
+Graphic Designer,"Branding, Photoshop, Typography, Vector Graphics, Illustrator, Layout Design, Color Theory, InDesign, UI/UX Design, Animation",Design & UX
+Graphic Designer,"Typography, InDesign, Branding, Color Theory, Animation, UI/UX Design, Photoshop, Illustrator, Vector Graphics, Layout Design",Design & UX
+Graphic Designer,"Layout Design, Color Theory, UI/UX Design, Typography, Photoshop, InDesign, Vector Graphics, Illustrator, Branding, Animation",Design & UX
+Graphic Designer,"Photoshop, Layout Design, Color Theory, Typography, Branding, UI/UX Design, Animation, Illustrator, Vector Graphics, InDesign",Design & UX
+Graphic Designer,"Typography, Animation, UI/UX Design, Vector Graphics, Photoshop, Layout Design, Illustrator, Color Theory, InDesign, Branding",Design & UX
+Graphic Designer,"Layout Design, Color Theory, Typography, Illustrator, Vector Graphics, InDesign, UI/UX Design, Branding, Animation, Photoshop",Design & UX
+Graphic Designer,"Layout Design, Vector Graphics, Illustrator, Photoshop, Animation, UI/UX Design, Typography, Color Theory, Branding, InDesign",Design & UX
+Graphic Designer,"Layout Design, Animation, UI/UX Design, Color Theory, InDesign, Branding, Vector Graphics, Photoshop, Illustrator, Typography",Design & UX
+Game Developer,"Unreal Engine, Multiplayer Networking, C++, AI for Games, 3D Modeling, Shader Programming, Game Monetization, Unity, Storytelling, Game Physics",Other
+Game Developer,"Shader Programming, 3D Modeling, Multiplayer Networking, AI for Games, Unreal Engine, Game Monetization, Storytelling, Game Physics, Unity, C++",Other
+Game Developer,"Unreal Engine, 3D Modeling, Unity, Storytelling, AI for Games, Multiplayer Networking, Game Physics, Shader Programming, C++, Game Monetization",Other
+Game Developer,"Game Monetization, AI for Games, Unreal Engine, Multiplayer Networking, C++, Game Physics, 3D Modeling, Shader Programming, Unity, Storytelling",Other
+Game Developer,"Unreal Engine, Game Physics, Shader Programming, Multiplayer Networking, AI for Games, C++, 3D Modeling, Game Monetization, Storytelling, Unity",Other
+Game Developer,"Multiplayer Networking, C++, Game Monetization, Storytelling, Unity, 3D Modeling, AI for Games, Shader Programming, Game Physics, Unreal Engine",Other
+Game Developer,"Game Monetization, Unity, AI for Games, Shader Programming, Game Physics, Multiplayer Networking, Unreal Engine, C++, 3D Modeling, Storytelling",Other
+Embedded Systems Engineer,"C++, C, Embedded Linux, IoT, Microcontrollers, PCB Design, RTOS, Circuit Debugging, Power Management, Wireless Protocols, Assembly Language",Other
+Embedded Systems Engineer,"C++, Power Management, IoT, Circuit Debugging, Embedded Linux, PCB Design, Microcontrollers, Wireless Protocols, C, Assembly Language, RTOS",Other
+Embedded Systems Engineer,"C++, PCB Design, Embedded Linux, RTOS, IoT, C, Microcontrollers, Wireless Protocols, Circuit Debugging, Assembly Language, Power Management",Other
+Embedded Systems Engineer,"Power Management, Embedded Linux, Circuit Debugging, IoT, Microcontrollers, Assembly Language, PCB Design, C, C++, Wireless Protocols, RTOS",Other
+Embedded Systems Engineer,"Power Management, Embedded Linux, Circuit Debugging, RTOS, PCB Design, Assembly Language, C, IoT, Microcontrollers, Wireless Protocols, C++",Other
+Full Stack Developer,"MongoDB, Node.js, GraphQL, React, REST APIs, Responsive Design, Web Security, JavaScript, Git, TypeScript, Express.js",Other
+Full Stack Developer,"REST APIs, JavaScript, React, TypeScript, GraphQL, Express.js, Web Security, Git, MongoDB, Node.js, Responsive Design",Other
+Full Stack Developer,"Responsive Design, JavaScript, Git, REST APIs, Node.js, GraphQL, Web Security, Express.js, MongoDB, TypeScript, React",Other
+Full Stack Developer,"JavaScript, MongoDB, TypeScript, React, Node.js, REST APIs, GraphQL, Git, Responsive Design, Web Security, Express.js",Other
+Full Stack Developer,"Web Security, Node.js, TypeScript, GraphQL, REST APIs, React, Express.js, Git, Responsive Design, MongoDB, JavaScript",Other
+Full Stack Developer,"Express.js, REST APIs, MongoDB, React, JavaScript, TypeScript, Git, Node.js, GraphQL, Responsive Design, Web Security",Other
+Full Stack Developer,"Node.js, Web Security, React, Express.js, GraphQL, Responsive Design, Git, MongoDB, REST APIs, JavaScript, TypeScript",Other
+Full Stack Developer,"MongoDB, React, GraphQL, REST APIs, Node.js, TypeScript, JavaScript, Git, Web Security, Responsive Design, Express.js",Other
+Mobile App Developer,"Firebase, React Native, Flutter, Performance Optimization, Swift, Testing & Debugging, API Integration, UI/UX Design, Kotlin, App Store Deployment",Software Development
+Mobile App Developer,"Kotlin, Flutter, Testing & Debugging, UI/UX Design, API Integration, React Native, Firebase, Performance Optimization, App Store Deployment, Swift",Software Development
+Mobile App Developer,"Firebase, Testing & Debugging, React Native, Kotlin, API Integration, UI/UX Design, App Store Deployment, Flutter, Performance Optimization, Swift",Software Development
+Mobile App Developer,"React Native, Performance Optimization, Flutter, API Integration, Kotlin, App Store Deployment, Swift, Firebase, UI/UX Design, Testing & Debugging",Software Development
+Mobile App Developer,"UI/UX Design, Swift, React Native, Testing & Debugging, Firebase, Flutter, API Integration, Performance Optimization, Kotlin, App Store Deployment",Software Development
+Mobile App Developer,"React Native, Performance Optimization, Flutter, Swift, App Store Deployment, API Integration, Kotlin, Firebase, Testing & Debugging, UI/UX Design",Software Development
+Mobile App Developer,"Kotlin, App Store Deployment, Flutter, Performance Optimization, UI/UX Design, Testing & Debugging, React Native, API Integration, Firebase, Swift",Software Development
+Mobile App Developer,"API Integration, Performance Optimization, App Store Deployment, UI/UX Design, Swift, Testing & Debugging, Firebase, Flutter, React Native, Kotlin",Software Development
+Systems Administrator,"Shell Scripting, Active Directory, Virtualization, Linux, Monitoring Tools, Network Security, Windows Server, IT Automation, Backup & Recovery, Cloud Services",Other
+Systems Administrator,"Active Directory, Linux, Backup & Recovery, Network Security, Shell Scripting, Virtualization, Monitoring Tools, Cloud Services, IT Automation, Windows Server",Other
+Systems Administrator,"Cloud Services, Virtualization, Active Directory, Shell Scripting, Linux, IT Automation, Windows Server, Monitoring Tools, Backup & Recovery, Network Security",Other
+Systems Administrator,"Shell Scripting, Virtualization, Windows Server, Backup & Recovery, Cloud Services, Linux, Monitoring Tools, Network Security, Active Directory, IT Automation",Other
+Systems Administrator,"Shell Scripting, Cloud Services, Virtualization, Network Security, Backup & Recovery, Linux, Monitoring Tools, Active Directory, Windows Server, IT Automation",Other
+Systems Administrator,"Linux, Virtualization, Shell Scripting, IT Automation, Monitoring Tools, Active Directory, Network Security, Backup & Recovery, Cloud Services, Windows Server",Other
+Systems Administrator,"Backup & Recovery, Linux, IT Automation, Virtualization, Network Security, Cloud Services, Windows Server, Active Directory, Shell Scripting, Monitoring Tools",Other
+Systems Administrator,"Cloud Services, Network Security, Active Directory, Shell Scripting, Linux, Windows Server, Monitoring Tools, Virtualization, IT Automation, Backup & Recovery",Other
+Systems Administrator,"Virtualization, Network Security, Monitoring Tools, Windows Server, IT Automation, Linux, Cloud Services, Active Directory, Shell Scripting, Backup & Recovery",Other
+IT Project Manager,"Scrum Framework, Conflict Resolution, PMP, Time Management, Communication Skills, Budgeting, Resource Allocation, Agile, Jira, Stakeholder Management, Risk Management",Other
+IT Project Manager,"Time Management, Risk Management, Agile, Budgeting, Communication Skills, PMP, Conflict Resolution, Stakeholder Management, Jira, Resource Allocation, Scrum Framework",Other
+IT Project Manager,"Resource Allocation, Jira, PMP, Time Management, Agile, Conflict Resolution, Communication Skills, Risk Management, Stakeholder Management, Scrum Framework, Budgeting",Other
+IT Project Manager,"Conflict Resolution, PMP, Agile, Risk Management, Time Management, Stakeholder Management, Budgeting, Resource Allocation, Communication Skills, Scrum Framework, Jira",Other
+IT Project Manager,"Stakeholder Management, Jira, Risk Management, Conflict Resolution, Resource Allocation, Agile, Scrum Framework, Time Management, PMP, Communication Skills, Budgeting",Other
+IT Project Manager,"Risk Management, Resource Allocation, Budgeting, PMP, Time Management, Stakeholder Management, Jira, Communication Skills, Agile, Scrum Framework, Conflict Resolution",Other
+IT Project Manager,"Conflict Resolution, Risk Management, PMP, Budgeting, Time Management, Communication Skills, Scrum Framework, Stakeholder Management, Agile, Resource Allocation, Jira",Other
+IT Project Manager,"Scrum Framework, Agile, Stakeholder Management, Resource Allocation, Risk Management, Budgeting, Jira, Time Management, Communication Skills, Conflict Resolution, PMP",Other
+Robotics Engineer,"Actuators, Embedded Systems, ROS, Computer Vision, Kinematics, Python, Sensor Fusion, C++, Motion Planning, Autonomous Systems",Other
+Robotics Engineer,"Kinematics, Embedded Systems, C++, Autonomous Systems, Python, Sensor Fusion, Computer Vision, Actuators, Motion Planning, ROS",Other
+Robotics Engineer,"Embedded Systems, ROS, C++, Autonomous Systems, Sensor Fusion, Kinematics, Actuators, Motion Planning, Computer Vision, Python",Other
+Robotics Engineer,"Kinematics, Actuators, Motion Planning, Sensor Fusion, Python, Computer Vision, Autonomous Systems, ROS, Embedded Systems, C++",Other
+Robotics Engineer,"ROS, Motion Planning, C++, Python, Embedded Systems, Actuators, Kinematics, Autonomous Systems, Sensor Fusion, Computer Vision",Other
+Robotics Engineer,"Sensor Fusion, Actuators, Kinematics, ROS, Python, Motion Planning, Embedded Systems, Autonomous Systems, Computer Vision, C++",Other
+Robotics Engineer,"Actuators, Motion Planning, Kinematics, Python, Autonomous Systems, ROS, Computer Vision, Sensor Fusion, C++, Embedded Systems",Other
+Robotics Engineer,"Motion Planning, Python, Kinematics, C++, Sensor Fusion, Autonomous Systems, Computer Vision, Embedded Systems, ROS, Actuators",Other
+Automation Engineer,"Load Testing, Cucumber, Performance Testing, Test Automation, API Testing, Jenkins, CI/CD Pipelines, Python, Selenium, Robot Framework",Other
+Automation Engineer,"API Testing, Python, Robot Framework, Performance Testing, Selenium, Cucumber, Jenkins, CI/CD Pipelines, Load Testing, Test Automation",Other
+Automation Engineer,"Python, Load Testing, API Testing, Test Automation, CI/CD Pipelines, Cucumber, Performance Testing, Jenkins, Robot Framework, Selenium",Other
+Automation Engineer,"Python, Selenium, CI/CD Pipelines, Load Testing, Performance Testing, Cucumber, Test Automation, Jenkins, API Testing, Robot Framework",Other
+Automation Engineer,"Test Automation, Performance Testing, Load Testing, Selenium, Python, API Testing, Robot Framework, Cucumber, Jenkins, CI/CD Pipelines",Other
+Automation Engineer,"Jenkins, Robot Framework, Python, CI/CD Pipelines, Load Testing, Test Automation, Cucumber, Performance Testing, Selenium, API Testing",Other
+Automation Engineer,"Robot Framework, Selenium, Performance Testing, Load Testing, CI/CD Pipelines, Python, Jenkins, API Testing, Cucumber, Test Automation",Other
+Cloud Security Engineer,"Security Hardening, Intrusion Detection, IAM, DevSecOps, Zero Trust Architecture, Security Audits, AWS Security, Identity Management, Encryption, Compliance",Other
+Cloud Security Engineer,"Security Hardening, Compliance, Encryption, Zero Trust Architecture, Identity Management, Security Audits, IAM, DevSecOps, AWS Security, Intrusion Detection",Other
+Cloud Security Engineer,"Intrusion Detection, Identity Management, Security Audits, Zero Trust Architecture, IAM, DevSecOps, AWS Security, Compliance, Security Hardening, Encryption",Other
+Cloud Security Engineer,"AWS Security, DevSecOps, Encryption, Compliance, Zero Trust Architecture, Intrusion Detection, Security Audits, IAM, Security Hardening, Identity Management",Other
+Cloud Security Engineer,"Security Audits, Compliance, DevSecOps, Identity Management, Security Hardening, Intrusion Detection, AWS Security, Zero Trust Architecture, IAM, Encryption",Other
+Cloud Security Engineer,"Intrusion Detection, Encryption, AWS Security, IAM, Security Audits, DevSecOps, Compliance, Identity Management, Security Hardening, Zero Trust Architecture",Other
+Cloud Security Engineer,"Encryption, IAM, DevSecOps, AWS Security, Security Hardening, Compliance, Identity Management, Intrusion Detection, Security Audits, Zero Trust Architecture",Other
+Cloud Security Engineer,"Encryption, IAM, Zero Trust Architecture, Security Hardening, Intrusion Detection, Compliance, AWS Security, Security Audits, Identity Management, DevSecOps",Other
+AI Research Scientist,"Bayesian Methods, NLP, Mathematical Modeling, Reinforcement Learning, Explainable AI, Probabilistic Modeling, AI Ethics, Generative AI, Neural Networks, TensorFlow",Other
+AI Research Scientist,"Neural Networks, Bayesian Methods, Generative AI, NLP, Mathematical Modeling, Probabilistic Modeling, TensorFlow, Reinforcement Learning, AI Ethics, Explainable AI",Other
+AI Research Scientist,"Generative AI, Bayesian Methods, Explainable AI, TensorFlow, AI Ethics, Neural Networks, NLP, Probabilistic Modeling, Reinforcement Learning, Mathematical Modeling",Other
+AI Research Scientist,"TensorFlow, AI Ethics, NLP, Explainable AI, Neural Networks, Reinforcement Learning, Probabilistic Modeling, Bayesian Methods, Mathematical Modeling, Generative AI",Other
+AI Research Scientist,"Neural Networks, TensorFlow, Probabilistic Modeling, Bayesian Methods, NLP, Generative AI, AI Ethics, Reinforcement Learning, Mathematical Modeling, Explainable AI",Other
+AI Research Scientist,"AI Ethics, Bayesian Methods, Neural Networks, Explainable AI, Probabilistic Modeling, NLP, Reinforcement Learning, Mathematical Modeling, TensorFlow, Generative AI",Other
+Financial Analyst,"Budgeting, Valuation, Market Analysis, Accounting Principles, Excel, Forecasting, Investment Strategies, Risk Analysis, Data Interpretation, Financial Modeling",Finance & Business
+Financial Analyst,"Forecasting, Financial Modeling, Risk Analysis, Valuation, Data Interpretation, Investment Strategies, Market Analysis, Accounting Principles, Excel, Budgeting",Finance & Business
+Financial Analyst,"Investment Strategies, Market Analysis, Data Interpretation, Forecasting, Budgeting, Valuation, Excel, Financial Modeling, Accounting Principles, Risk Analysis",Finance & Business
+Financial Analyst,"Market Analysis, Risk Analysis, Valuation, Data Interpretation, Forecasting, Financial Modeling, Accounting Principles, Excel, Investment Strategies, Budgeting",Finance & Business
+Financial Analyst,"Excel, Forecasting, Risk Analysis, Financial Modeling, Investment Strategies, Budgeting, Data Interpretation, Market Analysis, Accounting Principles, Valuation",Finance & Business
+Financial Analyst,"Financial Modeling, Market Analysis, Budgeting, Data Interpretation, Accounting Principles, Risk Analysis, Forecasting, Excel, Valuation, Investment Strategies",Finance & Business
+Financial Analyst,"Forecasting, Valuation, Excel, Accounting Principles, Financial Modeling, Market Analysis, Investment Strategies, Data Interpretation, Risk Analysis, Budgeting",Finance & Business
+Financial Analyst,"Budgeting, Forecasting, Valuation, Market Analysis, Data Interpretation, Risk Analysis, Accounting Principles, Investment Strategies, Excel, Financial Modeling",Finance & Business
+Civil Engineer,"BIM, AutoCAD, Structural Analysis, Cost Estimation, Construction Management, Hydraulics, Surveying, Urban Development, Project Planning, Soil Mechanics",Other
+Civil Engineer,"Cost Estimation, BIM, Hydraulics, Structural Analysis, Project Planning, Urban Development, Surveying, Soil Mechanics, AutoCAD, Construction Management",Other
+Civil Engineer,"Structural Analysis, Soil Mechanics, Project Planning, AutoCAD, Urban Development, Hydraulics, Surveying, Construction Management, Cost Estimation, BIM",Other
+Civil Engineer,"Urban Development, Surveying, Structural Analysis, Cost Estimation, AutoCAD, Project Planning, Soil Mechanics, Construction Management, Hydraulics, BIM",Other
+Civil Engineer,"Hydraulics, Urban Development, Soil Mechanics, Surveying, AutoCAD, Structural Analysis, Construction Management, Cost Estimation, Project Planning, BIM",Other
+Civil Engineer,"AutoCAD, Structural Analysis, Urban Development, Surveying, Hydraulics, Cost Estimation, Soil Mechanics, BIM, Construction Management, Project Planning",Other
+Civil Engineer,"Cost Estimation, Project Planning, Construction Management, Hydraulics, Structural Analysis, Surveying, Soil Mechanics, Urban Development, BIM, AutoCAD",Other
+Civil Engineer,"Urban Development, Soil Mechanics, BIM, Structural Analysis, Hydraulics, Surveying, Project Planning, Construction Management, Cost Estimation, AutoCAD",Other
+Mechanical Engineer,"Fluid Mechanics, Manufacturing Processes, Computational Simulation, Material Science, CAD, SolidWorks, Robotics, Product Design, Finite Element Analysis, Thermodynamics",Other
+Mechanical Engineer,"Fluid Mechanics, Material Science, Thermodynamics, Computational Simulation, Robotics, CAD, Product Design, SolidWorks, Finite Element Analysis, Manufacturing Processes",Other
+Mechanical Engineer,"Manufacturing Processes, Thermodynamics, CAD, Computational Simulation, Finite Element Analysis, Material Science, SolidWorks, Robotics, Product Design, Fluid Mechanics",Other
+Mechanical Engineer,"Computational Simulation, Manufacturing Processes, Material Science, Fluid Mechanics, Thermodynamics, Finite Element Analysis, Robotics, CAD, SolidWorks, Product Design",Other
+Mechanical Engineer,"Finite Element Analysis, Fluid Mechanics, Manufacturing Processes, Product Design, Material Science, CAD, Computational Simulation, Thermodynamics, Robotics, SolidWorks",Other
+Mechanical Engineer,"Fluid Mechanics, Computational Simulation, Thermodynamics, Product Design, SolidWorks, Finite Element Analysis, Manufacturing Processes, CAD, Material Science, Robotics",Other
+Mechanical Engineer,"Thermodynamics, Product Design, Material Science, Computational Simulation, CAD, Robotics, Finite Element Analysis, SolidWorks, Fluid Mechanics, Manufacturing Processes",Other
+Mechanical Engineer,"Computational Simulation, SolidWorks, Fluid Mechanics, Thermodynamics, Finite Element Analysis, Manufacturing Processes, Product Design, CAD, Robotics, Material Science",Other
+Mechanical Engineer,"Product Design, CAD, Robotics, Manufacturing Processes, SolidWorks, Finite Element Analysis, Material Science, Computational Simulation, Thermodynamics, Fluid Mechanics",Other
+Mechanical Engineer,"Product Design, CAD, Finite Element Analysis, Thermodynamics, Material Science, SolidWorks, Manufacturing Processes, Fluid Mechanics, Computational Simulation, Robotics",Other
+Electrical Engineer,"PLC Programming, Renewable Energy, Signal Processing, Microcontrollers, Power Systems, Electromagnetics, SCADA, Embedded Systems, Circuit Design, PCB Layout",Other
+Electrical Engineer,"Signal Processing, Electromagnetics, Embedded Systems, PCB Layout, SCADA, Circuit Design, Microcontrollers, Power Systems, PLC Programming, Renewable Energy",Other
+Electrical Engineer,"PLC Programming, Power Systems, Embedded Systems, Electromagnetics, PCB Layout, Circuit Design, Renewable Energy, SCADA, Microcontrollers, Signal Processing",Other
+Electrical Engineer,"Power Systems, Electromagnetics, Circuit Design, PLC Programming, Microcontrollers, Renewable Energy, PCB Layout, SCADA, Embedded Systems, Signal Processing",Other
+Electrical Engineer,"Electromagnetics, Microcontrollers, Signal Processing, PLC Programming, Power Systems, PCB Layout, Circuit Design, SCADA, Embedded Systems, Renewable Energy",Other
+Electrical Engineer,"Microcontrollers, Embedded Systems, SCADA, PCB Layout, Renewable Energy, Power Systems, Circuit Design, Electromagnetics, Signal Processing, PLC Programming",Other
+Electrical Engineer,"Embedded Systems, Electromagnetics, PLC Programming, Circuit Design, Renewable Energy, Power Systems, Microcontrollers, SCADA, PCB Layout, Signal Processing",Other
+Electrical Engineer,"Signal Processing, Microcontrollers, PCB Layout, Electromagnetics, PLC Programming, Circuit Design, Embedded Systems, Power Systems, Renewable Energy, SCADA",Other
+Electrical Engineer,"Electromagnetics, Signal Processing, Renewable Energy, Circuit Design, SCADA, Embedded Systems, PLC Programming, PCB Layout, Power Systems, Microcontrollers",Other
+Chemical Engineer,"Material Testing, Catalysis, Heat Transfer, Process Engineering, Reaction Engineering, Thermodynamics, Environmental Compliance, Safety Protocols, Fluid Dynamics, Polymer Science",Other
+Chemical Engineer,"Reaction Engineering, Thermodynamics, Material Testing, Polymer Science, Safety Protocols, Environmental Compliance, Catalysis, Process Engineering, Heat Transfer, Fluid Dynamics",Other
+Chemical Engineer,"Safety Protocols, Catalysis, Environmental Compliance, Heat Transfer, Polymer Science, Thermodynamics, Process Engineering, Reaction Engineering, Material Testing, Fluid Dynamics",Other
+Chemical Engineer,"Fluid Dynamics, Safety Protocols, Material Testing, Heat Transfer, Catalysis, Reaction Engineering, Process Engineering, Polymer Science, Thermodynamics, Environmental Compliance",Other
+Chemical Engineer,"Catalysis, Thermodynamics, Process Engineering, Fluid Dynamics, Polymer Science, Material Testing, Environmental Compliance, Reaction Engineering, Heat Transfer, Safety Protocols",Other
+Biomedical Engineer,"Genetic Engineering, Imaging Systems, Biomechanics, Signal Processing, Biomaterials, AI in Healthcare, Physiology, Circuit Design, Medical Devices, Medical Robotics",Other
+Biomedical Engineer,"Biomaterials, Medical Robotics, Biomechanics, Physiology, Circuit Design, Genetic Engineering, Medical Devices, AI in Healthcare, Imaging Systems, Signal Processing",Other
+Biomedical Engineer,"Imaging Systems, Circuit Design, Biomechanics, Medical Robotics, Medical Devices, Physiology, Biomaterials, AI in Healthcare, Genetic Engineering, Signal Processing",Other
+Biomedical Engineer,"AI in Healthcare, Biomaterials, Physiology, Circuit Design, Genetic Engineering, Imaging Systems, Signal Processing, Medical Robotics, Biomechanics, Medical Devices",Other
+Biomedical Engineer,"Circuit Design, Biomechanics, Medical Robotics, Physiology, Genetic Engineering, Imaging Systems, Medical Devices, AI in Healthcare, Biomaterials, Signal Processing",Other
+Biomedical Engineer,"AI in Healthcare, Circuit Design, Imaging Systems, Genetic Engineering, Signal Processing, Medical Devices, Medical Robotics, Physiology, Biomechanics, Biomaterials",Other
+Environmental Engineer,"Impact Assessment, Environmental Compliance, Air Pollution Control, Risk Assessment, GIS, Climate Change Adaptation, Waste Management, Water Treatment, Renewable Energy, Sustainability",Other
+Environmental Engineer,"Sustainability, Risk Assessment, GIS, Air Pollution Control, Water Treatment, Environmental Compliance, Waste Management, Impact Assessment, Renewable Energy, Climate Change Adaptation",Other
+Environmental Engineer,"Risk Assessment, Environmental Compliance, Renewable Energy, Water Treatment, Air Pollution Control, Sustainability, Waste Management, Impact Assessment, Climate Change Adaptation, GIS",Other
+Environmental Engineer,"GIS, Renewable Energy, Risk Assessment, Waste Management, Sustainability, Climate Change Adaptation, Air Pollution Control, Environmental Compliance, Impact Assessment, Water Treatment",Other
+Environmental Engineer,"Air Pollution Control, Renewable Energy, Climate Change Adaptation, GIS, Sustainability, Environmental Compliance, Waste Management, Water Treatment, Risk Assessment, Impact Assessment",Other
+Environmental Engineer,"Water Treatment, Waste Management, Environmental Compliance, Air Pollution Control, Renewable Energy, GIS, Impact Assessment, Risk Assessment, Climate Change Adaptation, Sustainability",Other
+Environmental Engineer,"GIS, Environmental Compliance, Water Treatment, Air Pollution Control, Climate Change Adaptation, Renewable Energy, Sustainability, Risk Assessment, Waste Management, Impact Assessment",Other
+Environmental Engineer,"GIS, Air Pollution Control, Sustainability, Waste Management, Water Treatment, Climate Change Adaptation, Environmental Compliance, Risk Assessment, Renewable Energy, Impact Assessment",Other
+Environmental Engineer,"Waste Management, Renewable Energy, Impact Assessment, Air Pollution Control, Risk Assessment, GIS, Sustainability, Water Treatment, Environmental Compliance, Climate Change Adaptation",Other
+Environmental Engineer,"Water Treatment, Climate Change Adaptation, Waste Management, GIS, Renewable Energy, Impact Assessment, Environmental Compliance, Air Pollution Control, Sustainability, Risk Assessment",Other
+HR Manager,"Conflict Resolution, Recruitment, Compensation & Benefits, Talent Acquisition, Performance Management, HR Policies, Diversity & Inclusion, Payroll, Labor Laws, Employee Relations",Other
+HR Manager,"Recruitment, Labor Laws, HR Policies, Diversity & Inclusion, Employee Relations, Talent Acquisition, Payroll, Compensation & Benefits, Performance Management, Conflict Resolution",Other
+HR Manager,"Talent Acquisition, Performance Management, Employee Relations, Payroll, Compensation & Benefits, Recruitment, Conflict Resolution, Labor Laws, HR Policies, Diversity & Inclusion",Other
+HR Manager,"Labor Laws, Performance Management, Talent Acquisition, Employee Relations, Conflict Resolution, Recruitment, HR Policies, Diversity & Inclusion, Compensation & Benefits, Payroll",Other
+HR Manager,"Diversity & Inclusion, Conflict Resolution, Talent Acquisition, Employee Relations, Performance Management, HR Policies, Compensation & Benefits, Recruitment, Labor Laws, Payroll",Other
+HR Manager,"Talent Acquisition, Performance Management, Compensation & Benefits, Conflict Resolution, Employee Relations, Payroll, Diversity & Inclusion, Recruitment, Labor Laws, HR Policies",Other
+HR Manager,"Compensation & Benefits, Diversity & Inclusion, Conflict Resolution, Talent Acquisition, Recruitment, HR Policies, Labor Laws, Payroll, Performance Management, Employee Relations",Other
+HR Manager,"Recruitment, Labor Laws, Performance Management, HR Policies, Compensation & Benefits, Conflict Resolution, Employee Relations, Diversity & Inclusion, Talent Acquisition, Payroll",Other
+HR Manager,"Performance Management, HR Policies, Employee Relations, Talent Acquisition, Compensation & Benefits, Labor Laws, Recruitment, Conflict Resolution, Payroll, Diversity & Inclusion",Other
+Operations Manager,"Resource Allocation, Supply Chain Management, Inventory Control, Vendor Management, Process Improvement, KPI Analysis, Logistics, Lean Six Sigma, Forecasting, Risk Management",Other
+Operations Manager,"Process Improvement, Forecasting, Lean Six Sigma, Resource Allocation, Logistics, Inventory Control, Vendor Management, Supply Chain Management, KPI Analysis, Risk Management",Other
+Operations Manager,"Supply Chain Management, Process Improvement, KPI Analysis, Resource Allocation, Inventory Control, Risk Management, Forecasting, Vendor Management, Lean Six Sigma, Logistics",Other
+Operations Manager,"KPI Analysis, Logistics, Supply Chain Management, Vendor Management, Resource Allocation, Lean Six Sigma, Process Improvement, Forecasting, Risk Management, Inventory Control",Other
+Operations Manager,"Risk Management, Lean Six Sigma, Vendor Management, Inventory Control, Logistics, Resource Allocation, Forecasting, Process Improvement, KPI Analysis, Supply Chain Management",Other
+Operations Manager,"Forecasting, Logistics, KPI Analysis, Inventory Control, Supply Chain Management, Resource Allocation, Risk Management, Vendor Management, Process Improvement, Lean Six Sigma",Other
+Operations Manager,"Inventory Control, Lean Six Sigma, Logistics, Supply Chain Management, Vendor Management, Process Improvement, Forecasting, Resource Allocation, KPI Analysis, Risk Management",Other
+Operations Manager,"Forecasting, Risk Management, KPI Analysis, Vendor Management, Logistics, Lean Six Sigma, Inventory Control, Process Improvement, Resource Allocation, Supply Chain Management",Other
+Operations Manager,"Process Improvement, Resource Allocation, Forecasting, Logistics, Risk Management, Lean Six Sigma, Supply Chain Management, Inventory Control, Vendor Management, KPI Analysis",Other
+Operations Manager,"Resource Allocation, Forecasting, KPI Analysis, Logistics, Supply Chain Management, Risk Management, Inventory Control, Vendor Management, Process Improvement, Lean Six Sigma",Other
+Sales Manager,"CRM, Negotiation, Lead Generation, Customer Retention, Data Analysis, Market Research, Pipeline Management, Presentation Skills, Sales Strategy, Cold Calling",Other
+Sales Manager,"Lead Generation, Negotiation, Sales Strategy, Market Research, Customer Retention, Cold Calling, Data Analysis, Pipeline Management, CRM, Presentation Skills",Other
+Sales Manager,"Lead Generation, Cold Calling, Data Analysis, Customer Retention, Presentation Skills, Market Research, Sales Strategy, Pipeline Management, CRM, Negotiation",Other
+Sales Manager,"Cold Calling, Lead Generation, Presentation Skills, Negotiation, Market Research, Customer Retention, CRM, Pipeline Management, Sales Strategy, Data Analysis",Other
+Sales Manager,"Negotiation, Lead Generation, Pipeline Management, Cold Calling, Sales Strategy, Data Analysis, Presentation Skills, CRM, Customer Retention, Market Research",Other
+Sales Manager,"Market Research, Lead Generation, Cold Calling, CRM, Presentation Skills, Sales Strategy, Customer Retention, Negotiation, Pipeline Management, Data Analysis",Other
+Sales Manager,"Sales Strategy, Cold Calling, Lead Generation, Presentation Skills, Data Analysis, Pipeline Management, Negotiation, Market Research, CRM, Customer Retention",Other
+Professor,"Curriculum Development, Public Speaking, Educational Technology, Grant Writing, Subject Matter Expertise, Student Mentorship, Research & Publications, Academic Writing, Classroom Management, Critical Thinking",Other
+Professor,"Critical Thinking, Student Mentorship, Classroom Management, Curriculum Development, Subject Matter Expertise, Academic Writing, Grant Writing, Research & Publications, Public Speaking, Educational Technology",Other
+Professor,"Classroom Management, Grant Writing, Research & Publications, Student Mentorship, Educational Technology, Curriculum Development, Critical Thinking, Academic Writing, Public Speaking, Subject Matter Expertise",Other
+Professor,"Grant Writing, Curriculum Development, Academic Writing, Public Speaking, Student Mentorship, Subject Matter Expertise, Classroom Management, Research & Publications, Educational Technology, Critical Thinking",Other
+Professor,"Academic Writing, Research & Publications, Subject Matter Expertise, Educational Technology, Student Mentorship, Curriculum Development, Critical Thinking, Grant Writing, Classroom Management, Public Speaking",Other
+Professor,"Student Mentorship, Academic Writing, Curriculum Development, Educational Technology, Research & Publications, Classroom Management, Public Speaking, Critical Thinking, Grant Writing, Subject Matter Expertise",Other
+Professor,"Student Mentorship, Critical Thinking, Subject Matter Expertise, Research & Publications, Grant Writing, Public Speaking, Educational Technology, Classroom Management, Academic Writing, Curriculum Development",Other
+Chef,"Time Management, Menu Planning, Budgeting & Cost Control, Creativity, Culinary Skills, Plating & Presentation, Ingredient Knowledge, Knife Skills, Food Safety & Sanitation, Leadership",Other
+Chef,"Food Safety & Sanitation, Time Management, Leadership, Creativity, Culinary Skills, Menu Planning, Knife Skills, Plating & Presentation, Budgeting & Cost Control, Ingredient Knowledge",Other
+Chef,"Ingredient Knowledge, Creativity, Knife Skills, Budgeting & Cost Control, Food Safety & Sanitation, Menu Planning, Plating & Presentation, Leadership, Time Management, Culinary Skills",Other
+Chef,"Culinary Skills, Time Management, Leadership, Budgeting & Cost Control, Plating & Presentation, Knife Skills, Creativity, Menu Planning, Ingredient Knowledge, Food Safety & Sanitation",Other
+Chef,"Time Management, Plating & Presentation, Knife Skills, Culinary Skills, Leadership, Budgeting & Cost Control, Menu Planning, Food Safety & Sanitation, Ingredient Knowledge, Creativity",Other
+Chef,"Creativity, Budgeting & Cost Control, Leadership, Culinary Skills, Time Management, Ingredient Knowledge, Plating & Presentation, Knife Skills, Food Safety & Sanitation, Menu Planning",Other
+Chef,"Time Management, Food Safety & Sanitation, Menu Planning, Leadership, Knife Skills, Ingredient Knowledge, Plating & Presentation, Budgeting & Cost Control, Creativity, Culinary Skills",Other
+Lawyer,"Courtroom Procedures, Public Speaking, Persuasion, Negotiation, Analytical Thinking, Litigation, Client Counseling, Legal Research, Case Law Analysis, Contract Drafting",Other
+Lawyer,"Analytical Thinking, Legal Research, Contract Drafting, Persuasion, Case Law Analysis, Litigation, Courtroom Procedures, Negotiation, Client Counseling, Public Speaking",Other
+Lawyer,"Persuasion, Legal Research, Contract Drafting, Client Counseling, Analytical Thinking, Negotiation, Public Speaking, Litigation, Case Law Analysis, Courtroom Procedures",Other
+Lawyer,"Analytical Thinking, Persuasion, Case Law Analysis, Legal Research, Public Speaking, Client Counseling, Negotiation, Courtroom Procedures, Contract Drafting, Litigation",Other
+Lawyer,"Legal Research, Negotiation, Courtroom Procedures, Case Law Analysis, Client Counseling, Public Speaking, Persuasion, Analytical Thinking, Litigation, Contract Drafting",Other
+Architect,"AutoCAD, Sustainable Design, Building Codes, Urban Planning, Project Management, Sketching, Visualization, Structural Design, 3D Modeling, Revit",Other
+Architect,"Project Management, Structural Design, Sustainable Design, Sketching, Revit, 3D Modeling, Building Codes, AutoCAD, Visualization, Urban Planning",Other
+Architect,"Sustainable Design, Structural Design, Project Management, Sketching, Urban Planning, 3D Modeling, AutoCAD, Building Codes, Visualization, Revit",Other
+Architect,"Visualization, Project Management, Sustainable Design, AutoCAD, Sketching, Revit, Structural Design, 3D Modeling, Building Codes, Urban Planning",Other
+Architect,"Structural Design, Sustainable Design, Project Management, Revit, Sketching, AutoCAD, 3D Modeling, Visualization, Building Codes, Urban Planning",Other
+Architect,"Structural Design, Revit, Urban Planning, Sketching, Project Management, 3D Modeling, Visualization, AutoCAD, Sustainable Design, Building Codes",Other
+Architect,"Project Management, Building Codes, 3D Modeling, Visualization, AutoCAD, Sustainable Design, Urban Planning, Structural Design, Revit, Sketching",Other
+Interior Designer,"Furniture Design, Budgeting, Project Coordination, Color Theory, SketchUp, AutoCAD, 3D Rendering, Client Communication, Space Planning, Material Selection",Other
+Interior Designer,"Budgeting, Furniture Design, Client Communication, Project Coordination, 3D Rendering, Color Theory, SketchUp, Space Planning, AutoCAD, Material Selection",Other
+Interior Designer,"Budgeting, Furniture Design, Space Planning, Project Coordination, Material Selection, Color Theory, 3D Rendering, Client Communication, SketchUp, AutoCAD",Other
+Interior Designer,"AutoCAD, Budgeting, Material Selection, Client Communication, Project Coordination, 3D Rendering, Furniture Design, Color Theory, SketchUp, Space Planning",Other
+Interior Designer,"Budgeting, Color Theory, Client Communication, Space Planning, Project Coordination, SketchUp, AutoCAD, Furniture Design, Material Selection, 3D Rendering",Other
+Interior Designer,"Space Planning, Furniture Design, Client Communication, Project Coordination, SketchUp, Material Selection, 3D Rendering, AutoCAD, Budgeting, Color Theory",Other
+Interior Designer,"Color Theory, AutoCAD, Client Communication, Furniture Design, Material Selection, 3D Rendering, SketchUp, Project Coordination, Budgeting, Space Planning",Other
+Interior Designer,"Budgeting, Space Planning, Project Coordination, Material Selection, SketchUp, AutoCAD, Furniture Design, Color Theory, Client Communication, 3D Rendering",Other
+Interior Designer,"3D Rendering, Project Coordination, Space Planning, Material Selection, SketchUp, Color Theory, Client Communication, Budgeting, Furniture Design, AutoCAD",Other
+Interior Designer,"SketchUp, Client Communication, Project Coordination, Space Planning, 3D Rendering, AutoCAD, Material Selection, Budgeting, Furniture Design, Color Theory",Other
+Event Planner,"Logistics, Time Management, Vendor Management, Risk Management, Problem-Solving, Marketing, Negotiation, Budgeting, Public Relations, Communication",Other
+Event Planner,"Public Relations, Negotiation, Risk Management, Problem-Solving, Marketing, Communication, Budgeting, Time Management, Logistics, Vendor Management",Other
+Event Planner,"Public Relations, Communication, Negotiation, Risk Management, Budgeting, Vendor Management, Logistics, Marketing, Time Management, Problem-Solving",Other
+Event Planner,"Public Relations, Budgeting, Time Management, Logistics, Problem-Solving, Communication, Marketing, Vendor Management, Negotiation, Risk Management",Other
+Event Planner,"Public Relations, Logistics, Marketing, Negotiation, Vendor Management, Risk Management, Time Management, Problem-Solving, Budgeting, Communication",Other
+Fashion Designer,"Color Theory, Draping, CAD for Fashion, Pattern Making, Sewing, Trend Analysis, Market Research, Creativity, Sketching, Textile Knowledge",Other
+Fashion Designer,"Market Research, Sewing, Trend Analysis, CAD for Fashion, Creativity, Textile Knowledge, Pattern Making, Sketching, Color Theory, Draping",Other
+Fashion Designer,"Sketching, Market Research, Sewing, Draping, Color Theory, Trend Analysis, Textile Knowledge, Creativity, CAD for Fashion, Pattern Making",Other
+Fashion Designer,"Creativity, Sketching, Textile Knowledge, Color Theory, Pattern Making, Draping, Sewing, Market Research, Trend Analysis, CAD for Fashion",Other
+Fashion Designer,"CAD for Fashion, Draping, Trend Analysis, Textile Knowledge, Market Research, Pattern Making, Sewing, Creativity, Sketching, Color Theory",Other
+Fashion Designer,"Trend Analysis, Sketching, Textile Knowledge, Creativity, Color Theory, Pattern Making, Draping, Market Research, Sewing, CAD for Fashion",Other
+Fashion Designer,"Trend Analysis, Draping, Sketching, Creativity, Sewing, Pattern Making, Color Theory, CAD for Fashion, Textile Knowledge, Market Research",Other
+Fashion Designer,"Pattern Making, Market Research, Trend Analysis, Color Theory, Sketching, Textile Knowledge, Draping, Creativity, CAD for Fashion, Sewing",Other
+Fashion Designer,"Sketching, Market Research, Trend Analysis, Sewing, Draping, Creativity, Textile Knowledge, Color Theory, CAD for Fashion, Pattern Making",Other
+Fashion Designer,"Sketching, Creativity, Color Theory, Market Research, Draping, CAD for Fashion, Sewing, Trend Analysis, Pattern Making, Textile Knowledge",Other
+Photographer,"Lightroom, Event Photography, Camera Settings, Adobe Photoshop, Composition, Photo Editing, Creativity, Lighting, Storytelling, Portrait Photography",Other
+Photographer,"Event Photography, Creativity, Portrait Photography, Storytelling, Lightroom, Adobe Photoshop, Composition, Camera Settings, Lighting, Photo Editing",Other
+Photographer,"Photo Editing, Lightroom, Adobe Photoshop, Composition, Creativity, Event Photography, Storytelling, Camera Settings, Lighting, Portrait Photography",Other
+Photographer,"Adobe Photoshop, Storytelling, Camera Settings, Event Photography, Composition, Creativity, Photo Editing, Lightroom, Lighting, Portrait Photography",Other
+Photographer,"Camera Settings, Storytelling, Adobe Photoshop, Lightroom, Composition, Portrait Photography, Lighting, Event Photography, Photo Editing, Creativity",Other
+Photographer,"Lighting, Photo Editing, Event Photography, Adobe Photoshop, Creativity, Camera Settings, Storytelling, Portrait Photography, Composition, Lightroom",Other
+Photographer,"Storytelling, Lightroom, Camera Settings, Portrait Photography, Creativity, Photo Editing, Composition, Lighting, Adobe Photoshop, Event Photography",Other
+Photographer,"Storytelling, Camera Settings, Lightroom, Portrait Photography, Adobe Photoshop, Lighting, Composition, Event Photography, Creativity, Photo Editing",Other
+Videographer,"Cinematography, Motion Graphics, Color Grading, Sound Design, Storyboarding, Camera Operation, Video Editing, Lighting Techniques, After Effects, Adobe Premiere Pro",Other
+Videographer,"After Effects, Cinematography, Video Editing, Camera Operation, Storyboarding, Lighting Techniques, Color Grading, Sound Design, Motion Graphics, Adobe Premiere Pro",Other
+Videographer,"Sound Design, Cinematography, After Effects, Adobe Premiere Pro, Camera Operation, Lighting Techniques, Video Editing, Storyboarding, Motion Graphics, Color Grading",Other
+Videographer,"Lighting Techniques, Camera Operation, Color Grading, Video Editing, Sound Design, Storyboarding, Adobe Premiere Pro, Cinematography, Motion Graphics, After Effects",Other
+Videographer,"Video Editing, Cinematography, Adobe Premiere Pro, Storyboarding, Color Grading, Lighting Techniques, Sound Design, Motion Graphics, After Effects, Camera Operation",Other
+Videographer,"Storyboarding, Camera Operation, Color Grading, After Effects, Sound Design, Video Editing, Lighting Techniques, Cinematography, Motion Graphics, Adobe Premiere Pro",Other
+Videographer,"Storyboarding, Cinematography, Lighting Techniques, Color Grading, Camera Operation, Sound Design, Motion Graphics, Video Editing, After Effects, Adobe Premiere Pro",Other
+Journalist,"Interviewing, Public Speaking, Investigative Research, Ethics, SEO Writing, News Reporting, Social Media Awareness, Fact-Checking, Writing, Multimedia Content",Other
+Journalist,"Multimedia Content, Public Speaking, Social Media Awareness, News Reporting, Fact-Checking, Writing, Interviewing, Investigative Research, Ethics, SEO Writing",Other
+Journalist,"News Reporting, Social Media Awareness, SEO Writing, Ethics, Public Speaking, Writing, Fact-Checking, Multimedia Content, Interviewing, Investigative Research",Other
+Journalist,"SEO Writing, Investigative Research, Interviewing, Public Speaking, Multimedia Content, Fact-Checking, Social Media Awareness, Ethics, News Reporting, Writing",Other
+Journalist,"News Reporting, Interviewing, SEO Writing, Public Speaking, Writing, Social Media Awareness, Ethics, Investigative Research, Multimedia Content, Fact-Checking",Other
+Journalist,"News Reporting, Public Speaking, SEO Writing, Multimedia Content, Ethics, Interviewing, Writing, Fact-Checking, Social Media Awareness, Investigative Research",Other
+Editor,"Fact-Checking, Communication, Storytelling, Proofreading, Content Structuring, SEO Optimization, Grammar & Syntax, AP Style, Time Management, Layout Design",Other
+Editor,"Layout Design, SEO Optimization, Time Management, Grammar & Syntax, Content Structuring, Fact-Checking, AP Style, Communication, Proofreading, Storytelling",Other
+Editor,"Time Management, Content Structuring, Grammar & Syntax, SEO Optimization, Fact-Checking, Storytelling, Communication, Layout Design, AP Style, Proofreading",Other
+Editor,"Time Management, Proofreading, Storytelling, SEO Optimization, Fact-Checking, Layout Design, Communication, Content Structuring, Grammar & Syntax, AP Style",Other
+Editor,"AP Style, Communication, Grammar & Syntax, Proofreading, Content Structuring, Layout Design, SEO Optimization, Fact-Checking, Storytelling, Time Management",Other
+Editor,"AP Style, Communication, Storytelling, Grammar & Syntax, Content Structuring, Proofreading, Time Management, SEO Optimization, Layout Design, Fact-Checking",Other
+TV Producer,"Directing, Public Relations, Marketing, Scriptwriting, Budgeting, Story Development, Post-Production, Negotiation, Video Editing, Team Leadership",Other
+TV Producer,"Story Development, Negotiation, Scriptwriting, Directing, Marketing, Team Leadership, Public Relations, Video Editing, Budgeting, Post-Production",Other
+TV Producer,"Story Development, Team Leadership, Negotiation, Marketing, Budgeting, Scriptwriting, Post-Production, Video Editing, Public Relations, Directing",Other
+TV Producer,"Post-Production, Negotiation, Marketing, Public Relations, Story Development, Budgeting, Directing, Team Leadership, Video Editing, Scriptwriting",Other
+TV Producer,"Directing, Video Editing, Budgeting, Negotiation, Team Leadership, Story Development, Public Relations, Post-Production, Marketing, Scriptwriting",Other
+TV Producer,"Marketing, Directing, Team Leadership, Video Editing, Story Development, Post-Production, Public Relations, Scriptwriting, Negotiation, Budgeting",Other
+TV Producer,"Directing, Negotiation, Video Editing, Budgeting, Public Relations, Marketing, Scriptwriting, Post-Production, Story Development, Team Leadership",Other
+Radio Host,"Sound Editing, Interviewing, Public Speaking, Podcasting, Audience Engagement, Script Reading, Marketing, Content Planning, Voice Modulation, Storytelling",Other
+Radio Host,"Script Reading, Podcasting, Voice Modulation, Audience Engagement, Storytelling, Public Speaking, Interviewing, Marketing, Sound Editing, Content Planning",Other
+Radio Host,"Interviewing, Public Speaking, Script Reading, Audience Engagement, Marketing, Content Planning, Storytelling, Podcasting, Sound Editing, Voice Modulation",Other
+Radio Host,"Sound Editing, Marketing, Voice Modulation, Script Reading, Podcasting, Storytelling, Interviewing, Public Speaking, Audience Engagement, Content Planning",Other
+Radio Host,"Content Planning, Script Reading, Marketing, Public Speaking, Audience Engagement, Interviewing, Storytelling, Podcasting, Sound Editing, Voice Modulation",Other
+Music Producer,"Music Theory, Collaboration, Pro Tools), Mixing & Mastering, FL Studio, Arranging, Audio Effects, Songwriting, Sound Engineering, DAWs (Ableton, Studio Recording, Beat Making",Other
+Music Producer,"Beat Making, Arranging, Audio Effects, FL Studio, Mixing & Mastering, Music Theory, Songwriting, DAWs (Ableton, Pro Tools), Sound Engineering, Studio Recording, Collaboration",Other
+Music Producer,"Pro Tools), Studio Recording, Mixing & Mastering, Songwriting, Collaboration, Beat Making, DAWs (Ableton, Sound Engineering, Music Theory, Audio Effects, Arranging, FL Studio",Other
+Music Producer,"Arranging, Beat Making, Mixing & Mastering, Music Theory, Pro Tools), Collaboration, DAWs (Ableton, Audio Effects, FL Studio, Sound Engineering, Studio Recording, Songwriting",Other
+Music Producer,"FL Studio, Beat Making, Studio Recording, DAWs (Ableton, Audio Effects, Collaboration, Music Theory, Mixing & Mastering, Songwriting, Sound Engineering, Pro Tools), Arranging",Other
+Singer,"Emotional Expression, Pitch Perfection, Stage Presence, Performance Skills, Songwriting, Audio Recording, Music Theory, Breath Control, Marketing, Vocal Control",Other
+Singer,"Audio Recording, Music Theory, Emotional Expression, Performance Skills, Songwriting, Vocal Control, Breath Control, Pitch Perfection, Marketing, Stage Presence",Other
+Singer,"Emotional Expression, Performance Skills, Songwriting, Breath Control, Stage Presence, Audio Recording, Music Theory, Pitch Perfection, Vocal Control, Marketing",Other
+Singer,"Pitch Perfection, Audio Recording, Songwriting, Breath Control, Stage Presence, Emotional Expression, Music Theory, Marketing, Performance Skills, Vocal Control",Other
+Singer,"Marketing, Stage Presence, Pitch Perfection, Performance Skills, Vocal Control, Emotional Expression, Music Theory, Breath Control, Audio Recording, Songwriting",Other
+Actor,"Public Speaking, Voice Control, Script Reading, Stage Presence, Auditioning, Improv Skills, Emotional Intelligence, Memorization, Physical Expression, Character Development",Other
+Actor,"Voice Control, Memorization, Auditioning, Physical Expression, Script Reading, Emotional Intelligence, Stage Presence, Public Speaking, Improv Skills, Character Development",Other
+Actor,"Physical Expression, Public Speaking, Emotional Intelligence, Stage Presence, Memorization, Auditioning, Voice Control, Character Development, Improv Skills, Script Reading",Other
+Actor,"Script Reading, Public Speaking, Character Development, Physical Expression, Memorization, Auditioning, Emotional Intelligence, Improv Skills, Stage Presence, Voice Control",Other
+Actor,"Voice Control, Physical Expression, Character Development, Public Speaking, Emotional Intelligence, Improv Skills, Script Reading, Stage Presence, Auditioning, Memorization",Other
+Actor,"Improv Skills, Emotional Intelligence, Memorization, Physical Expression, Auditioning, Character Development, Stage Presence, Public Speaking, Voice Control, Script Reading",Other
+Actor,"Character Development, Script Reading, Memorization, Voice Control, Stage Presence, Improv Skills, Public Speaking, Emotional Intelligence, Physical Expression, Auditioning",Other
+Actor,"Physical Expression, Improv Skills, Voice Control, Auditioning, Stage Presence, Character Development, Script Reading, Emotional Intelligence, Memorization, Public Speaking",Other
+Voice Actor,"Storytelling, Microphone Technique, Audio Editing, Pronunciation, Emotion Expression, Dubbing, Sound Effects, Vocal Range, Script Reading, Character Development",Other
+Voice Actor,"Audio Editing, Pronunciation, Character Development, Microphone Technique, Vocal Range, Storytelling, Script Reading, Emotion Expression, Sound Effects, Dubbing",Other
+Voice Actor,"Pronunciation, Script Reading, Vocal Range, Dubbing, Storytelling, Emotion Expression, Sound Effects, Character Development, Audio Editing, Microphone Technique",Other
+Voice Actor,"Microphone Technique, Sound Effects, Audio Editing, Vocal Range, Dubbing, Script Reading, Emotion Expression, Pronunciation, Character Development, Storytelling",Other
+Voice Actor,"Pronunciation, Emotion Expression, Storytelling, Microphone Technique, Dubbing, Sound Effects, Character Development, Script Reading, Vocal Range, Audio Editing",Other
+Dancer,"Coordination, Strength, Musicality, Endurance, Rhythm, Stage Presence, Choreography, Partner Work, Flexibility, Performance Skills",Other
+Dancer,"Strength, Choreography, Performance Skills, Endurance, Flexibility, Musicality, Partner Work, Rhythm, Coordination, Stage Presence",Other
+Dancer,"Rhythm, Stage Presence, Partner Work, Endurance, Strength, Performance Skills, Choreography, Flexibility, Coordination, Musicality",Other
+Dancer,"Endurance, Partner Work, Choreography, Coordination, Rhythm, Stage Presence, Flexibility, Musicality, Performance Skills, Strength",Other
+Dancer,"Rhythm, Strength, Partner Work, Performance Skills, Choreography, Stage Presence, Musicality, Flexibility, Endurance, Coordination",Other
+Dancer,"Strength, Partner Work, Endurance, Musicality, Rhythm, Performance Skills, Choreography, Coordination, Flexibility, Stage Presence",Other
+Dancer,"Choreography, Coordination, Stage Presence, Flexibility, Endurance, Partner Work, Performance Skills, Musicality, Strength, Rhythm",Other
+Athlete,"Teamwork, Competitive Mindset, Strategy Planning, Strength Training, Mental Toughness, Nutrition Management, Reflexes, Agility, Injury Prevention, Physical Endurance",Other
+Athlete,"Strategy Planning, Competitive Mindset, Mental Toughness, Agility, Strength Training, Injury Prevention, Teamwork, Nutrition Management, Reflexes, Physical Endurance",Other
+Athlete,"Injury Prevention, Mental Toughness, Teamwork, Nutrition Management, Physical Endurance, Competitive Mindset, Strength Training, Agility, Strategy Planning, Reflexes",Other
+Athlete,"Reflexes, Competitive Mindset, Teamwork, Physical Endurance, Strategy Planning, Agility, Nutrition Management, Strength Training, Mental Toughness, Injury Prevention",Other
+Athlete,"Strength Training, Teamwork, Strategy Planning, Injury Prevention, Physical Endurance, Nutrition Management, Competitive Mindset, Agility, Reflexes, Mental Toughness",Other
+Athlete,"Nutrition Management, Strategy Planning, Mental Toughness, Teamwork, Strength Training, Physical Endurance, Injury Prevention, Reflexes, Competitive Mindset, Agility",Other
+Athlete,"Reflexes, Competitive Mindset, Physical Endurance, Nutrition Management, Strength Training, Injury Prevention, Strategy Planning, Mental Toughness, Agility, Teamwork",Other
+Athlete,"Competitive Mindset, Teamwork, Strategy Planning, Nutrition Management, Physical Endurance, Agility, Strength Training, Mental Toughness, Reflexes, Injury Prevention",Other
+Athlete,"Strategy Planning, Agility, Teamwork, Competitive Mindset, Reflexes, Injury Prevention, Strength Training, Mental Toughness, Physical Endurance, Nutrition Management",Other
+Sports Coach,"Conflict Resolution, Player Development, Fitness Training, Analytics, Game Strategy, Motivation, Communication, Team Management, Leadership, Nutrition",Other
+Sports Coach,"Fitness Training, Motivation, Game Strategy, Analytics, Nutrition, Player Development, Communication, Leadership, Team Management, Conflict Resolution",Other
+Sports Coach,"Conflict Resolution, Game Strategy, Motivation, Team Management, Fitness Training, Leadership, Communication, Player Development, Nutrition, Analytics",Other
+Sports Coach,"Leadership, Player Development, Communication, Nutrition, Team Management, Analytics, Motivation, Game Strategy, Conflict Resolution, Fitness Training",Other
+Sports Coach,"Analytics, Fitness Training, Game Strategy, Nutrition, Conflict Resolution, Leadership, Team Management, Motivation, Communication, Player Development",Other
+Sports Coach,"Leadership, Analytics, Player Development, Fitness Training, Game Strategy, Team Management, Nutrition, Conflict Resolution, Motivation, Communication",Other
+Physical Therapist,"Anatomy, Patient Care, Strength Training, Manual Therapy, Balance Training, Exercise Prescription, Rehabilitation Techniques, Communication, Neuromuscular Therapy, Injury Prevention",Other
+Physical Therapist,"Neuromuscular Therapy, Strength Training, Exercise Prescription, Patient Care, Anatomy, Communication, Injury Prevention, Rehabilitation Techniques, Manual Therapy, Balance Training",Other
+Physical Therapist,"Strength Training, Rehabilitation Techniques, Balance Training, Patient Care, Injury Prevention, Manual Therapy, Communication, Neuromuscular Therapy, Anatomy, Exercise Prescription",Other
+Physical Therapist,"Exercise Prescription, Neuromuscular Therapy, Injury Prevention, Strength Training, Balance Training, Rehabilitation Techniques, Patient Care, Anatomy, Communication, Manual Therapy",Other
+Physical Therapist,"Injury Prevention, Manual Therapy, Strength Training, Neuromuscular Therapy, Exercise Prescription, Balance Training, Communication, Patient Care, Rehabilitation Techniques, Anatomy",Other
+Physical Therapist,"Injury Prevention, Strength Training, Anatomy, Patient Care, Neuromuscular Therapy, Communication, Manual Therapy, Exercise Prescription, Balance Training, Rehabilitation Techniques",Other
+Occupational Therapist,"Patient Communication, Fine Motor Skills, Functional Assessment, Assistive Devices, Cognitive Rehabilitation, Neurological Rehabilitation, Home Adaptation, Therapy Planning, Hand Therapy, Psychological Support",Other
+Occupational Therapist,"Home Adaptation, Therapy Planning, Fine Motor Skills, Assistive Devices, Hand Therapy, Functional Assessment, Patient Communication, Neurological Rehabilitation, Psychological Support, Cognitive Rehabilitation",Other
+Occupational Therapist,"Home Adaptation, Neurological Rehabilitation, Cognitive Rehabilitation, Patient Communication, Assistive Devices, Functional Assessment, Psychological Support, Therapy Planning, Hand Therapy, Fine Motor Skills",Other
+Occupational Therapist,"Cognitive Rehabilitation, Fine Motor Skills, Psychological Support, Assistive Devices, Therapy Planning, Neurological Rehabilitation, Hand Therapy, Patient Communication, Functional Assessment, Home Adaptation",Other
+Occupational Therapist,"Psychological Support, Neurological Rehabilitation, Hand Therapy, Functional Assessment, Assistive Devices, Cognitive Rehabilitation, Fine Motor Skills, Therapy Planning, Patient Communication, Home Adaptation",Other
+Occupational Therapist,"Home Adaptation, Fine Motor Skills, Assistive Devices, Neurological Rehabilitation, Therapy Planning, Psychological Support, Cognitive Rehabilitation, Hand Therapy, Functional Assessment, Patient Communication",Other
+Occupational Therapist,"Functional Assessment, Therapy Planning, Home Adaptation, Hand Therapy, Fine Motor Skills, Neurological Rehabilitation, Assistive Devices, Psychological Support, Patient Communication, Cognitive Rehabilitation",Other
+Occupational Therapist,"Psychological Support, Therapy Planning, Cognitive Rehabilitation, Hand Therapy, Neurological Rehabilitation, Home Adaptation, Functional Assessment, Patient Communication, Fine Motor Skills, Assistive Devices",Other
+Occupational Therapist,"Hand Therapy, Patient Communication, Cognitive Rehabilitation, Psychological Support, Home Adaptation, Assistive Devices, Therapy Planning, Functional Assessment, Fine Motor Skills, Neurological Rehabilitation",Other
+Occupational Therapist,"Neurological Rehabilitation, Functional Assessment, Assistive Devices, Home Adaptation, Psychological Support, Patient Communication, Hand Therapy, Cognitive Rehabilitation, Therapy Planning, Fine Motor Skills",Other
+Nutritionist,"Diet Planning, Sports Nutrition, Nutritional Assessments, Meal Planning, Public Health, Metabolism Understanding, Wellness Coaching, Weight Management, Client Counseling, Food Science",Other
+Nutritionist,"Client Counseling, Weight Management, Meal Planning, Public Health, Wellness Coaching, Diet Planning, Sports Nutrition, Metabolism Understanding, Nutritional Assessments, Food Science",Other
+Nutritionist,"Wellness Coaching, Nutritional Assessments, Sports Nutrition, Meal Planning, Public Health, Weight Management, Client Counseling, Metabolism Understanding, Diet Planning, Food Science",Other
+Nutritionist,"Weight Management, Meal Planning, Public Health, Sports Nutrition, Wellness Coaching, Metabolism Understanding, Nutritional Assessments, Food Science, Diet Planning, Client Counseling",Other
+Nutritionist,"Food Science, Client Counseling, Sports Nutrition, Metabolism Understanding, Nutritional Assessments, Meal Planning, Wellness Coaching, Diet Planning, Weight Management, Public Health",Other
+Psychologist,"Mental Health Assessment, Emotional Intelligence, Counseling, Communication, Ethics, Neuroscience Basics, Behavioral Analysis, Cognitive Therapy, Clinical Research, Empathy",Other
+Psychologist,"Communication, Clinical Research, Behavioral Analysis, Neuroscience Basics, Mental Health Assessment, Counseling, Cognitive Therapy, Ethics, Emotional Intelligence, Empathy",Other
+Psychologist,"Communication, Counseling, Neuroscience Basics, Empathy, Cognitive Therapy, Behavioral Analysis, Mental Health Assessment, Emotional Intelligence, Clinical Research, Ethics",Other
+Psychologist,"Counseling, Empathy, Emotional Intelligence, Communication, Clinical Research, Cognitive Therapy, Ethics, Behavioral Analysis, Mental Health Assessment, Neuroscience Basics",Other
+Psychologist,"Mental Health Assessment, Counseling, Cognitive Therapy, Clinical Research, Ethics, Empathy, Behavioral Analysis, Neuroscience Basics, Communication, Emotional Intelligence",Other
+Social Worker,"Trauma-Informed Care, Family Counseling, Crisis Intervention, Communication, Therapy Techniques, Legal Knowledge, Community Resources, Support Groups, Case Management, Client Advocacy",Other
+Social Worker,"Crisis Intervention, Case Management, Community Resources, Communication, Therapy Techniques, Trauma-Informed Care, Client Advocacy, Support Groups, Family Counseling, Legal Knowledge",Other
+Social Worker,"Support Groups, Trauma-Informed Care, Community Resources, Crisis Intervention, Family Counseling, Legal Knowledge, Case Management, Communication, Therapy Techniques, Client Advocacy",Other
+Social Worker,"Family Counseling, Community Resources, Client Advocacy, Case Management, Legal Knowledge, Therapy Techniques, Crisis Intervention, Communication, Trauma-Informed Care, Support Groups",Other
+Social Worker,"Trauma-Informed Care, Community Resources, Support Groups, Crisis Intervention, Family Counseling, Case Management, Communication, Therapy Techniques, Legal Knowledge, Client Advocacy",Other
+Police Officer,"Firearms Training, Ethical Decision-Making, Crisis Management, Self-Defense, Communication, Community Engagement, Conflict Resolution, Investigation Techniques, Report Writing, Criminal Law",Other
+Police Officer,"Self-Defense, Crisis Management, Report Writing, Communication, Firearms Training, Investigation Techniques, Community Engagement, Criminal Law, Ethical Decision-Making, Conflict Resolution",Other
+Police Officer,"Firearms Training, Ethical Decision-Making, Self-Defense, Investigation Techniques, Crisis Management, Communication, Conflict Resolution, Report Writing, Criminal Law, Community Engagement",Other
+Police Officer,"Ethical Decision-Making, Report Writing, Criminal Law, Communication, Crisis Management, Community Engagement, Firearms Training, Conflict Resolution, Investigation Techniques, Self-Defense",Other
+Police Officer,"Self-Defense, Investigation Techniques, Communication, Community Engagement, Report Writing, Conflict Resolution, Crisis Management, Criminal Law, Ethical Decision-Making, Firearms Training",Other
+Police Officer,"Self-Defense, Conflict Resolution, Investigation Techniques, Communication, Criminal Law, Ethical Decision-Making, Report Writing, Firearms Training, Community Engagement, Crisis Management",Other
+Police Officer,"Investigation Techniques, Crisis Management, Report Writing, Community Engagement, Criminal Law, Conflict Resolution, Self-Defense, Ethical Decision-Making, Communication, Firearms Training",Other
+Police Officer,"Firearms Training, Report Writing, Crisis Management, Ethical Decision-Making, Investigation Techniques, Communication, Conflict Resolution, Criminal Law, Self-Defense, Community Engagement",Other
+Police Officer,"Investigation Techniques, Ethical Decision-Making, Self-Defense, Report Writing, Firearms Training, Conflict Resolution, Criminal Law, Crisis Management, Community Engagement, Communication",Other
+Police Officer,"Investigation Techniques, Criminal Law, Ethical Decision-Making, Crisis Management, Firearms Training, Self-Defense, Community Engagement, Communication, Conflict Resolution, Report Writing",Other
+Detective,"Report Writing, Evidence Collection, Criminal Profiling, Interviewing Witnesses, Research, Logical Reasoning, Investigation, Problem-Solving, Court Testimony, Surveillance",Other
+Detective,"Surveillance, Interviewing Witnesses, Logical Reasoning, Investigation, Research, Criminal Profiling, Report Writing, Problem-Solving, Court Testimony, Evidence Collection",Other
+Detective,"Court Testimony, Interviewing Witnesses, Criminal Profiling, Surveillance, Research, Investigation, Evidence Collection, Problem-Solving, Report Writing, Logical Reasoning",Other
+Detective,"Research, Logical Reasoning, Report Writing, Problem-Solving, Interviewing Witnesses, Investigation, Surveillance, Criminal Profiling, Court Testimony, Evidence Collection",Other
+Detective,"Investigation, Research, Interviewing Witnesses, Court Testimony, Criminal Profiling, Evidence Collection, Surveillance, Logical Reasoning, Problem-Solving, Report Writing",Other
+Firefighter,"Hazardous Materials Handling, Emergency Response, First Aid, Fire Safety, Equipment Maintenance, Crisis Management, Fire Suppression, Search & Rescue, Physical Fitness, Teamwork",Other
+Firefighter,"Fire Safety, Teamwork, Physical Fitness, Equipment Maintenance, Hazardous Materials Handling, Emergency Response, Crisis Management, Search & Rescue, First Aid, Fire Suppression",Other
+Firefighter,"Crisis Management, Physical Fitness, Fire Suppression, First Aid, Emergency Response, Fire Safety, Equipment Maintenance, Hazardous Materials Handling, Search & Rescue, Teamwork",Other
+Firefighter,"Hazardous Materials Handling, Teamwork, Physical Fitness, Emergency Response, Fire Suppression, Fire Safety, Search & Rescue, First Aid, Equipment Maintenance, Crisis Management",Other
+Firefighter,"Teamwork, Fire Suppression, Fire Safety, First Aid, Hazardous Materials Handling, Equipment Maintenance, Emergency Response, Search & Rescue, Physical Fitness, Crisis Management",Other
+Firefighter,"Fire Safety, Physical Fitness, Search & Rescue, Fire Suppression, Crisis Management, Teamwork, First Aid, Equipment Maintenance, Hazardous Materials Handling, Emergency Response",Other
+Firefighter,"Crisis Management, Physical Fitness, Teamwork, Fire Suppression, Hazardous Materials Handling, Fire Safety, Emergency Response, Equipment Maintenance, First Aid, Search & Rescue",Other
+Firefighter,"Crisis Management, Equipment Maintenance, Search & Rescue, Emergency Response, Hazardous Materials Handling, Fire Suppression, Fire Safety, Teamwork, First Aid, Physical Fitness",Other
+Firefighter,"Fire Suppression, Teamwork, Emergency Response, First Aid, Fire Safety, Crisis Management, Physical Fitness, Equipment Maintenance, Hazardous Materials Handling, Search & Rescue",Other
+Paramedic,"Decision-Making, Crisis Management, Documentation, Patient Transport, First Aid, Emergency Medicine, Trauma Care, Medical Equipment Handling, CPR, Communication",Other
+Paramedic,"Medical Equipment Handling, Patient Transport, Documentation, Communication, Trauma Care, CPR, Emergency Medicine, Crisis Management, Decision-Making, First Aid",Other
+Paramedic,"CPR, Documentation, Decision-Making, Crisis Management, First Aid, Patient Transport, Emergency Medicine, Communication, Trauma Care, Medical Equipment Handling",Other
+Paramedic,"Decision-Making, Medical Equipment Handling, Patient Transport, Communication, Emergency Medicine, First Aid, CPR, Trauma Care, Crisis Management, Documentation",Other
+Paramedic,"First Aid, Documentation, Decision-Making, Crisis Management, CPR, Trauma Care, Communication, Medical Equipment Handling, Emergency Medicine, Patient Transport",Other
+Paramedic,"First Aid, Crisis Management, Medical Equipment Handling, CPR, Decision-Making, Emergency Medicine, Patient Transport, Communication, Trauma Care, Documentation",Other
+Paramedic,"CPR, Communication, Patient Transport, First Aid, Emergency Medicine, Decision-Making, Documentation, Trauma Care, Medical Equipment Handling, Crisis Management",Other
+Paramedic,"Documentation, Trauma Care, Decision-Making, First Aid, Crisis Management, Patient Transport, Medical Equipment Handling, Emergency Medicine, CPR, Communication",Other
+Paramedic,"CPR, Communication, Patient Transport, Trauma Care, Decision-Making, First Aid, Medical Equipment Handling, Emergency Medicine, Crisis Management, Documentation",Other
+Surgeon,"Surgical Procedures, Decision-Making, Patient Communication, Research, Medical Ethics, Stress Management, Precision, Risk Management, Anatomy, Hand-Eye Coordination",Other
+Surgeon,"Stress Management, Surgical Procedures, Decision-Making, Patient Communication, Medical Ethics, Hand-Eye Coordination, Research, Precision, Anatomy, Risk Management",Other
+Surgeon,"Patient Communication, Hand-Eye Coordination, Research, Anatomy, Precision, Decision-Making, Stress Management, Medical Ethics, Risk Management, Surgical Procedures",Other
+Surgeon,"Hand-Eye Coordination, Stress Management, Anatomy, Surgical Procedures, Risk Management, Medical Ethics, Precision, Patient Communication, Decision-Making, Research",Other
+Surgeon,"Anatomy, Stress Management, Precision, Medical Ethics, Decision-Making, Research, Hand-Eye Coordination, Surgical Procedures, Patient Communication, Risk Management",Other
+Surgeon,"Anatomy, Patient Communication, Research, Stress Management, Surgical Procedures, Risk Management, Hand-Eye Coordination, Precision, Decision-Making, Medical Ethics",Other
+Nurse,"Emergency Response, CPR, Medication Administration, Record-Keeping, Patient Care, Teamwork, Communication, Medical Equipment Handling, Emotional Intelligence, Infection Control",Healthcare & Medical
+Nurse,"Emergency Response, Emotional Intelligence, CPR, Medical Equipment Handling, Infection Control, Teamwork, Communication, Medication Administration, Patient Care, Record-Keeping",Healthcare & Medical
+Nurse,"Medication Administration, Communication, Infection Control, Teamwork, Medical Equipment Handling, Emotional Intelligence, CPR, Record-Keeping, Patient Care, Emergency Response",Healthcare & Medical
+Nurse,"Record-Keeping, Patient Care, Emotional Intelligence, CPR, Communication, Teamwork, Emergency Response, Medication Administration, Infection Control, Medical Equipment Handling",Healthcare & Medical
+Nurse,"Patient Care, Record-Keeping, Infection Control, Teamwork, Emotional Intelligence, Medical Equipment Handling, Communication, CPR, Medication Administration, Emergency Response",Healthcare & Medical
+Nurse,"Patient Care, Medication Administration, Record-Keeping, Infection Control, CPR, Communication, Medical Equipment Handling, Teamwork, Emotional Intelligence, Emergency Response",Healthcare & Medical
+Nurse,"Communication, Medication Administration, Emotional Intelligence, Patient Care, Infection Control, Record-Keeping, Teamwork, Medical Equipment Handling, Emergency Response, CPR",Healthcare & Medical
+Nurse,"Record-Keeping, Teamwork, Emotional Intelligence, Infection Control, Patient Care, Emergency Response, Medical Equipment Handling, Medication Administration, CPR, Communication",Healthcare & Medical
+Pharmacist,"Drug Knowledge, Insurance Processing, Patient Counseling, Public Health Awareness, Attention to Detail, Communication, Inventory Control, Prescription Management, Pharmacovigilance, Medical Ethics",Other
+Pharmacist,"Patient Counseling, Insurance Processing, Drug Knowledge, Communication, Pharmacovigilance, Medical Ethics, Attention to Detail, Prescription Management, Inventory Control, Public Health Awareness",Other
+Pharmacist,"Attention to Detail, Inventory Control, Drug Knowledge, Public Health Awareness, Insurance Processing, Communication, Prescription Management, Patient Counseling, Pharmacovigilance, Medical Ethics",Other
+Pharmacist,"Drug Knowledge, Public Health Awareness, Pharmacovigilance, Inventory Control, Insurance Processing, Communication, Patient Counseling, Medical Ethics, Prescription Management, Attention to Detail",Other
+Pharmacist,"Attention to Detail, Insurance Processing, Drug Knowledge, Public Health Awareness, Pharmacovigilance, Prescription Management, Medical Ethics, Inventory Control, Communication, Patient Counseling",Other
+Pharmacist,"Pharmacovigilance, Insurance Processing, Drug Knowledge, Attention to Detail, Inventory Control, Medical Ethics, Patient Counseling, Public Health Awareness, Prescription Management, Communication",Other
+Pharmacist,"Medical Ethics, Inventory Control, Prescription Management, Patient Counseling, Attention to Detail, Pharmacovigilance, Public Health Awareness, Drug Knowledge, Insurance Processing, Communication",Other
+Dentist,"Anesthesia, Dexterity, Patient Care, Oral Health, Dental Surgery, Hygiene Education, Communication, Cosmetic Dentistry, X-ray Interpretation, Problem-Solving",Other
+Dentist,"Dexterity, Hygiene Education, Anesthesia, X-ray Interpretation, Oral Health, Problem-Solving, Dental Surgery, Communication, Cosmetic Dentistry, Patient Care",Other
+Dentist,"X-ray Interpretation, Problem-Solving, Oral Health, Patient Care, Anesthesia, Communication, Dexterity, Hygiene Education, Dental Surgery, Cosmetic Dentistry",Other
+Dentist,"Anesthesia, X-ray Interpretation, Cosmetic Dentistry, Dental Surgery, Oral Health, Hygiene Education, Problem-Solving, Patient Care, Dexterity, Communication",Other
+Dentist,"X-ray Interpretation, Dexterity, Oral Health, Hygiene Education, Cosmetic Dentistry, Communication, Problem-Solving, Anesthesia, Dental Surgery, Patient Care",Other
+Dentist,"Cosmetic Dentistry, Dental Surgery, Hygiene Education, Problem-Solving, Oral Health, Anesthesia, X-ray Interpretation, Dexterity, Communication, Patient Care",Other
+Dentist,"Hygiene Education, Oral Health, X-ray Interpretation, Anesthesia, Patient Care, Communication, Problem-Solving, Cosmetic Dentistry, Dental Surgery, Dexterity",Other
+Dentist,"Dental Surgery, Patient Care, Communication, Anesthesia, X-ray Interpretation, Oral Health, Cosmetic Dentistry, Dexterity, Problem-Solving, Hygiene Education",Other
+Veterinarian,"Pain Management, Laboratory Testing, Customer Service, Surgery, Nutrition Counseling, Animal Care, Diagnosis, Emergency Care, Communication, Business Management",Other
+Veterinarian,"Business Management, Communication, Pain Management, Nutrition Counseling, Diagnosis, Surgery, Emergency Care, Animal Care, Laboratory Testing, Customer Service",Other
+Veterinarian,"Animal Care, Emergency Care, Diagnosis, Customer Service, Laboratory Testing, Nutrition Counseling, Communication, Business Management, Pain Management, Surgery",Other
+Veterinarian,"Laboratory Testing, Business Management, Emergency Care, Nutrition Counseling, Surgery, Animal Care, Customer Service, Communication, Pain Management, Diagnosis",Other
+Veterinarian,"Nutrition Counseling, Pain Management, Customer Service, Diagnosis, Communication, Laboratory Testing, Business Management, Emergency Care, Surgery, Animal Care",Other
+Veterinarian,"Customer Service, Laboratory Testing, Diagnosis, Emergency Care, Animal Care, Surgery, Pain Management, Nutrition Counseling, Communication, Business Management",Other
+Zoologist,"Fieldwork, Data Analysis, Animal Behavior, Conservation, Report Writing, Data Collection, Research, Ecology, Public Speaking, Wildlife Management",Other
+Zoologist,"Data Analysis, Report Writing, Conservation, Research, Fieldwork, Animal Behavior, Data Collection, Public Speaking, Wildlife Management, Ecology",Other
+Zoologist,"Conservation, Data Analysis, Research, Data Collection, Public Speaking, Ecology, Fieldwork, Animal Behavior, Wildlife Management, Report Writing",Other
+Zoologist,"Data Collection, Data Analysis, Wildlife Management, Research, Report Writing, Ecology, Animal Behavior, Fieldwork, Conservation, Public Speaking",Other
+Zoologist,"Data Analysis, Wildlife Management, Data Collection, Report Writing, Research, Public Speaking, Ecology, Animal Behavior, Conservation, Fieldwork",Other
+Zoologist,"Research, Ecology, Conservation, Fieldwork, Animal Behavior, Wildlife Management, Report Writing, Data Collection, Public Speaking, Data Analysis",Other
+Zoologist,"Report Writing, Public Speaking, Ecology, Wildlife Management, Conservation, Research, Animal Behavior, Fieldwork, Data Analysis, Data Collection",Other
+Zoologist,"Research, Conservation, Ecology, Data Analysis, Wildlife Management, Public Speaking, Report Writing, Fieldwork, Animal Behavior, Data Collection",Other
+Zoologist,"Wildlife Management, Fieldwork, Research, Animal Behavior, Ecology, Data Collection, Data Analysis, Public Speaking, Conservation, Report Writing",Other
+Marine Biologist,"Report Writing, Data Collection, Genetic Analysis, Conservation, Ecology, Environmental Impact Assessment, Research, Lab Work, Oceanography, Diving",Other
+Marine Biologist,"Environmental Impact Assessment, Conservation, Research, Oceanography, Ecology, Data Collection, Report Writing, Genetic Analysis, Lab Work, Diving",Other
+Marine Biologist,"Research, Conservation, Data Collection, Report Writing, Genetic Analysis, Environmental Impact Assessment, Ecology, Lab Work, Oceanography, Diving",Other
+Marine Biologist,"Research, Ecology, Environmental Impact Assessment, Report Writing, Lab Work, Data Collection, Conservation, Oceanography, Genetic Analysis, Diving",Other
+Marine Biologist,"Oceanography, Environmental Impact Assessment, Conservation, Ecology, Data Collection, Diving, Lab Work, Research, Report Writing, Genetic Analysis",Other
+Marine Biologist,"Conservation, Oceanography, Environmental Impact Assessment, Research, Genetic Analysis, Report Writing, Diving, Lab Work, Ecology, Data Collection",Other
+Marine Biologist,"Environmental Impact Assessment, Genetic Analysis, Lab Work, Research, Diving, Data Collection, Oceanography, Conservation, Ecology, Report Writing",Other
+Marine Biologist,"Research, Genetic Analysis, Lab Work, Report Writing, Conservation, Environmental Impact Assessment, Data Collection, Ecology, Diving, Oceanography",Other
+Marine Biologist,"Lab Work, Genetic Analysis, Diving, Conservation, Oceanography, Environmental Impact Assessment, Report Writing, Data Collection, Research, Ecology",Other
+Astronomer,"Mathematical Modeling, Programming (Python, Theoretical Physics, Data Analysis, MATLAB), Physics, Space Observations, Research, Public Speaking, Scientific Writing, Telescope Operation",Other
+Astronomer,"Space Observations, Data Analysis, Physics, Mathematical Modeling, Scientific Writing, Programming (Python, MATLAB), Research, Theoretical Physics, Public Speaking, Telescope Operation",Other
+Astronomer,"Research, Space Observations, Physics, Telescope Operation, Data Analysis, MATLAB), Public Speaking, Scientific Writing, Theoretical Physics, Programming (Python, Mathematical Modeling",Other
+Astronomer,"Space Observations, Scientific Writing, Data Analysis, Physics, Programming (Python, Telescope Operation, Research, Public Speaking, Mathematical Modeling, MATLAB), Theoretical Physics",Other
+Astronomer,"Data Analysis, Physics, Public Speaking, Telescope Operation, Theoretical Physics, Programming (Python, Scientific Writing, Mathematical Modeling, Research, MATLAB), Space Observations",Other
+Pilot,"Aircraft Maintenance Basics, Stress Management, Communication, Meteorology, Leadership, Emergency Procedures, Flight Controls, Navigation, Decision-Making, Aviation Regulations",Other
+Pilot,"Emergency Procedures, Leadership, Navigation, Aviation Regulations, Aircraft Maintenance Basics, Communication, Decision-Making, Meteorology, Flight Controls, Stress Management",Other
+Pilot,"Emergency Procedures, Aircraft Maintenance Basics, Leadership, Stress Management, Decision-Making, Navigation, Meteorology, Communication, Flight Controls, Aviation Regulations",Other
+Pilot,"Aircraft Maintenance Basics, Navigation, Decision-Making, Aviation Regulations, Meteorology, Emergency Procedures, Flight Controls, Stress Management, Communication, Leadership",Other
+Pilot,"Flight Controls, Decision-Making, Aircraft Maintenance Basics, Communication, Leadership, Aviation Regulations, Emergency Procedures, Navigation, Stress Management, Meteorology",Other
+Pilot,"Navigation, Communication, Decision-Making, Emergency Procedures, Meteorology, Stress Management, Flight Controls, Leadership, Aircraft Maintenance Basics, Aviation Regulations",Other
+Pilot,"Navigation, Decision-Making, Communication, Flight Controls, Aviation Regulations, Stress Management, Emergency Procedures, Leadership, Meteorology, Aircraft Maintenance Basics",Other
+Pilot,"Flight Controls, Aviation Regulations, Leadership, Meteorology, Communication, Stress Management, Decision-Making, Emergency Procedures, Navigation, Aircraft Maintenance Basics",Other
+Air Traffic Controller,"Multitasking, Navigation Systems, Meteorology, Stress Management, Problem-Solving, Situational Awareness, Communication, Safety Procedures, Decision-Making, Coordination",Other
+Air Traffic Controller,"Decision-Making, Safety Procedures, Navigation Systems, Multitasking, Meteorology, Stress Management, Communication, Coordination, Problem-Solving, Situational Awareness",Other
+Air Traffic Controller,"Safety Procedures, Decision-Making, Coordination, Navigation Systems, Communication, Situational Awareness, Stress Management, Problem-Solving, Meteorology, Multitasking",Other
+Air Traffic Controller,"Safety Procedures, Meteorology, Problem-Solving, Coordination, Situational Awareness, Decision-Making, Communication, Navigation Systems, Stress Management, Multitasking",Other
+Air Traffic Controller,"Coordination, Problem-Solving, Situational Awareness, Safety Procedures, Meteorology, Decision-Making, Communication, Stress Management, Multitasking, Navigation Systems",Other
+Air Traffic Controller,"Multitasking, Situational Awareness, Communication, Navigation Systems, Safety Procedures, Problem-Solving, Decision-Making, Coordination, Stress Management, Meteorology",Other
+Air Traffic Controller,"Safety Procedures, Navigation Systems, Stress Management, Decision-Making, Coordination, Communication, Problem-Solving, Situational Awareness, Multitasking, Meteorology",Other
+Air Traffic Controller,"Decision-Making, Navigation Systems, Multitasking, Meteorology, Stress Management, Situational Awareness, Communication, Safety Procedures, Coordination, Problem-Solving",Other
+Mechanic,"Electrical Systems, Hydraulics, Engine Repair, Diagnostic Tools, Brakes, Vehicle Maintenance, Troubleshooting, Transmission Systems, Welding, Quality Control",Other
+Mechanic,"Transmission Systems, Diagnostic Tools, Engine Repair, Troubleshooting, Hydraulics, Welding, Electrical Systems, Brakes, Vehicle Maintenance, Quality Control",Other
+Mechanic,"Vehicle Maintenance, Engine Repair, Transmission Systems, Electrical Systems, Diagnostic Tools, Brakes, Welding, Quality Control, Troubleshooting, Hydraulics",Other
+Mechanic,"Quality Control, Brakes, Welding, Engine Repair, Hydraulics, Vehicle Maintenance, Transmission Systems, Troubleshooting, Diagnostic Tools, Electrical Systems",Other
+Mechanic,"Diagnostic Tools, Engine Repair, Hydraulics, Brakes, Vehicle Maintenance, Troubleshooting, Transmission Systems, Welding, Electrical Systems, Quality Control",Other
+Mechanic,"Troubleshooting, Electrical Systems, Transmission Systems, Engine Repair, Brakes, Welding, Vehicle Maintenance, Hydraulics, Diagnostic Tools, Quality Control",Other
+Electrician,"Wiring, Troubleshooting, Safety Regulations, Testing Equipment, Lighting Design, Smart Home Systems, Blueprint Reading, Renewable Energy, Circuitry, Compliance",Other
+Electrician,"Renewable Energy, Safety Regulations, Troubleshooting, Wiring, Lighting Design, Testing Equipment, Smart Home Systems, Compliance, Blueprint Reading, Circuitry",Other
+Electrician,"Troubleshooting, Blueprint Reading, Testing Equipment, Compliance, Safety Regulations, Smart Home Systems, Lighting Design, Wiring, Renewable Energy, Circuitry",Other
+Electrician,"Renewable Energy, Compliance, Blueprint Reading, Wiring, Lighting Design, Troubleshooting, Smart Home Systems, Safety Regulations, Testing Equipment, Circuitry",Other
+Electrician,"Safety Regulations, Wiring, Testing Equipment, Troubleshooting, Blueprint Reading, Circuitry, Lighting Design, Smart Home Systems, Compliance, Renewable Energy",Other
+Electrician,"Testing Equipment, Troubleshooting, Compliance, Blueprint Reading, Smart Home Systems, Circuitry, Lighting Design, Renewable Energy, Safety Regulations, Wiring",Other
+Electrician,"Safety Regulations, Lighting Design, Wiring, Circuitry, Troubleshooting, Renewable Energy, Testing Equipment, Compliance, Blueprint Reading, Smart Home Systems",Other
+Electrician,"Renewable Energy, Safety Regulations, Lighting Design, Testing Equipment, Compliance, Wiring, Troubleshooting, Blueprint Reading, Circuitry, Smart Home Systems",Other
+Electrician,"Wiring, Troubleshooting, Lighting Design, Circuitry, Renewable Energy, Smart Home Systems, Safety Regulations, Blueprint Reading, Compliance, Testing Equipment",Other
+Electrician,"Testing Equipment, Blueprint Reading, Circuitry, Safety Regulations, Wiring, Lighting Design, Smart Home Systems, Renewable Energy, Troubleshooting, Compliance",Other
+Plumber,"Water Heaters, Water Systems, Leak Detection, Pipe Fitting, Troubleshooting, HVAC Systems, Safety Compliance, Welding, Drainage Systems, Blueprint Reading",Other
+Plumber,"HVAC Systems, Water Heaters, Troubleshooting, Water Systems, Blueprint Reading, Pipe Fitting, Welding, Drainage Systems, Leak Detection, Safety Compliance",Other
+Plumber,"Leak Detection, Pipe Fitting, Blueprint Reading, HVAC Systems, Water Systems, Drainage Systems, Welding, Troubleshooting, Safety Compliance, Water Heaters",Other
+Plumber,"HVAC Systems, Pipe Fitting, Leak Detection, Water Systems, Water Heaters, Safety Compliance, Drainage Systems, Troubleshooting, Blueprint Reading, Welding",Other
+Plumber,"Leak Detection, Blueprint Reading, Troubleshooting, Water Systems, Water Heaters, Pipe Fitting, HVAC Systems, Safety Compliance, Welding, Drainage Systems",Other
+Plumber,"Pipe Fitting, HVAC Systems, Blueprint Reading, Water Systems, Troubleshooting, Drainage Systems, Water Heaters, Leak Detection, Welding, Safety Compliance",Other
+Plumber,"Troubleshooting, Blueprint Reading, Leak Detection, Pipe Fitting, Safety Compliance, Welding, Drainage Systems, HVAC Systems, Water Heaters, Water Systems",Other
+Plumber,"Pipe Fitting, Troubleshooting, Water Systems, Drainage Systems, Leak Detection, Welding, HVAC Systems, Water Heaters, Blueprint Reading, Safety Compliance",Other
+Carpenter,"Math Skills, Cabinet Making, Hand Tools, Blueprint Reading, Power Tools, Framing, Finishing, Safety Standards, Woodworking, Project Planning",Other
+Carpenter,"Woodworking, Cabinet Making, Project Planning, Math Skills, Blueprint Reading, Power Tools, Framing, Safety Standards, Finishing, Hand Tools",Other
+Carpenter,"Math Skills, Power Tools, Cabinet Making, Blueprint Reading, Finishing, Project Planning, Framing, Woodworking, Hand Tools, Safety Standards",Other
+Carpenter,"Safety Standards, Blueprint Reading, Cabinet Making, Framing, Woodworking, Finishing, Project Planning, Math Skills, Hand Tools, Power Tools",Other
+Carpenter,"Project Planning, Safety Standards, Finishing, Cabinet Making, Blueprint Reading, Framing, Math Skills, Power Tools, Woodworking, Hand Tools",Other
+Carpenter,"Project Planning, Power Tools, Framing, Math Skills, Safety Standards, Hand Tools, Cabinet Making, Blueprint Reading, Woodworking, Finishing",Other
+Carpenter,"Safety Standards, Hand Tools, Project Planning, Blueprint Reading, Power Tools, Finishing, Cabinet Making, Framing, Woodworking, Math Skills",Other
+Carpenter,"Safety Standards, Project Planning, Math Skills, Power Tools, Hand Tools, Woodworking, Blueprint Reading, Cabinet Making, Finishing, Framing",Other
+Carpenter,"Finishing, Framing, Power Tools, Project Planning, Woodworking, Blueprint Reading, Cabinet Making, Safety Standards, Math Skills, Hand Tools",Other
+Welder,"MIG/TIG Welding, Quality Control, Safety Standards, Structural Welding, Brazing, Metal Fabrication, Arc Welding, Blueprint Reading, Plasma Cutting, Pipe Welding",Other
+Welder,"Pipe Welding, Blueprint Reading, MIG/TIG Welding, Arc Welding, Safety Standards, Metal Fabrication, Plasma Cutting, Quality Control, Brazing, Structural Welding",Other
+Welder,"Structural Welding, Quality Control, Pipe Welding, Plasma Cutting, Safety Standards, Blueprint Reading, Arc Welding, Metal Fabrication, MIG/TIG Welding, Brazing",Other
+Welder,"Blueprint Reading, Brazing, Safety Standards, Plasma Cutting, Structural Welding, Arc Welding, Pipe Welding, Quality Control, Metal Fabrication, MIG/TIG Welding",Other
+Welder,"MIG/TIG Welding, Pipe Welding, Safety Standards, Structural Welding, Blueprint Reading, Arc Welding, Brazing, Quality Control, Metal Fabrication, Plasma Cutting",Other
+Construction Manager,"Project Scheduling, Risk Management, Quality Control, Safety Compliance, Leadership, Negotiation, Budgeting, Communication, Team Management, Blueprint Reading",Other
+Construction Manager,"Negotiation, Team Management, Project Scheduling, Leadership, Communication, Quality Control, Safety Compliance, Blueprint Reading, Risk Management, Budgeting",Other
+Construction Manager,"Safety Compliance, Quality Control, Budgeting, Blueprint Reading, Negotiation, Risk Management, Team Management, Leadership, Communication, Project Scheduling",Other
+Construction Manager,"Project Scheduling, Leadership, Risk Management, Team Management, Blueprint Reading, Negotiation, Budgeting, Quality Control, Communication, Safety Compliance",Other
+Construction Manager,"Safety Compliance, Blueprint Reading, Risk Management, Negotiation, Communication, Team Management, Leadership, Quality Control, Project Scheduling, Budgeting",Other
+Construction Manager,"Negotiation, Communication, Safety Compliance, Project Scheduling, Risk Management, Leadership, Budgeting, Quality Control, Blueprint Reading, Team Management",Other
+Construction Manager,"Safety Compliance, Blueprint Reading, Quality Control, Negotiation, Budgeting, Project Scheduling, Team Management, Communication, Leadership, Risk Management",Other
+Construction Manager,"Quality Control, Risk Management, Project Scheduling, Blueprint Reading, Team Management, Negotiation, Budgeting, Safety Compliance, Communication, Leadership",Other
+Construction Manager,"Negotiation, Safety Compliance, Blueprint Reading, Communication, Project Scheduling, Team Management, Quality Control, Leadership, Risk Management, Budgeting",Other
+Construction Manager,"Risk Management, Team Management, Communication, Leadership, Negotiation, Budgeting, Quality Control, Safety Compliance, Project Scheduling, Blueprint Reading",Other
+Truck Driver,"Compliance, Safety Regulations, Route Planning, Customer Service, Time Management, Navigation, Vehicle Maintenance, Load Handling, Defensive Driving, Logistics",Other
+Truck Driver,"Safety Regulations, Logistics, Time Management, Defensive Driving, Customer Service, Compliance, Route Planning, Navigation, Vehicle Maintenance, Load Handling",Other
+Truck Driver,"Vehicle Maintenance, Customer Service, Load Handling, Defensive Driving, Time Management, Safety Regulations, Logistics, Navigation, Route Planning, Compliance",Other
+Truck Driver,"Vehicle Maintenance, Navigation, Time Management, Compliance, Route Planning, Customer Service, Defensive Driving, Load Handling, Safety Regulations, Logistics",Other
+Truck Driver,"Load Handling, Customer Service, Time Management, Vehicle Maintenance, Compliance, Logistics, Route Planning, Navigation, Safety Regulations, Defensive Driving",Other
+Barista,"Brewing Techniques, Latte Art, Multitasking, Coffee Bean Knowledge, Cleaning Procedures, Cash Handling, Customer Service, Inventory Management, Upselling, Espresso Preparation",Other
+Barista,"Latte Art, Inventory Management, Cash Handling, Brewing Techniques, Cleaning Procedures, Customer Service, Espresso Preparation, Multitasking, Coffee Bean Knowledge, Upselling",Other
+Barista,"Espresso Preparation, Latte Art, Cleaning Procedures, Coffee Bean Knowledge, Multitasking, Cash Handling, Brewing Techniques, Customer Service, Upselling, Inventory Management",Other
+Barista,"Inventory Management, Brewing Techniques, Upselling, Espresso Preparation, Cleaning Procedures, Customer Service, Coffee Bean Knowledge, Latte Art, Cash Handling, Multitasking",Other
+Barista,"Inventory Management, Brewing Techniques, Customer Service, Coffee Bean Knowledge, Cleaning Procedures, Cash Handling, Upselling, Multitasking, Latte Art, Espresso Preparation",Other
+Bartender,"Teamwork, Cocktail Garnishing, Customer Service, Cash Handling, Speed & Efficiency, Mixology, Drink Preparation, Creativity, Inventory Control, Alcohol Regulations",Other
+Bartender,"Cash Handling, Cocktail Garnishing, Inventory Control, Teamwork, Customer Service, Creativity, Alcohol Regulations, Speed & Efficiency, Drink Preparation, Mixology",Other
+Bartender,"Customer Service, Inventory Control, Cocktail Garnishing, Cash Handling, Teamwork, Drink Preparation, Alcohol Regulations, Mixology, Creativity, Speed & Efficiency",Other
+Bartender,"Teamwork, Customer Service, Drink Preparation, Cocktail Garnishing, Creativity, Alcohol Regulations, Cash Handling, Speed & Efficiency, Inventory Control, Mixology",Other
+Bartender,"Alcohol Regulations, Teamwork, Creativity, Inventory Control, Cocktail Garnishing, Customer Service, Drink Preparation, Mixology, Cash Handling, Speed & Efficiency",Other
+Bartender,"Mixology, Customer Service, Drink Preparation, Inventory Control, Creativity, Alcohol Regulations, Teamwork, Cocktail Garnishing, Cash Handling, Speed & Efficiency",Other
+Bartender,"Alcohol Regulations, Teamwork, Customer Service, Cash Handling, Creativity, Inventory Control, Cocktail Garnishing, Drink Preparation, Speed & Efficiency, Mixology",Other
+Waiter,"Menu Knowledge, Upselling, Problem-Solving, Order Taking, Hygiene Standards, Communication, Customer Service, Table Setting, POS System, Multitasking",Other
+Waiter,"Communication, Customer Service, Table Setting, Problem-Solving, Hygiene Standards, Multitasking, Order Taking, POS System, Menu Knowledge, Upselling",Other
+Waiter,"Upselling, Problem-Solving, Multitasking, Hygiene Standards, Customer Service, Table Setting, Order Taking, POS System, Menu Knowledge, Communication",Other
+Waiter,"Order Taking, Multitasking, Hygiene Standards, Table Setting, Communication, Problem-Solving, Upselling, Menu Knowledge, POS System, Customer Service",Other
+Waiter,"Table Setting, POS System, Hygiene Standards, Menu Knowledge, Problem-Solving, Upselling, Multitasking, Communication, Order Taking, Customer Service",Other

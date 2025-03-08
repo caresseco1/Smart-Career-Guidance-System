@@ -1,0 +1,24 @@
+Main Points for the Block Diagram of the Resume Classifier Project:
+
+1. User Interface (UI)
+   - Input area for pasting resumes.
+   - Button to submit the resume for classification.
+   - Display area for results.
+
+2. Backend Processing
+   - Data Preprocessing
+     - Text cleaning and tokenization.
+     - TF-IDF vectorization of the cleaned text.
+   - Model Training
+     - Loading the pre-trained model.
+     - Classifying the input resume using the model.
+
+3. Model
+   - SVC (Support Vector Classifier) model trained on labeled data.
+   - Class weights to handle imbalanced classes.
+
+4. Output
+   - Displaying the predicted job title or classification result.
+
+5. Dependencies
+   - Libraries used (e.g., Pandas, NLTK, Scikit-learn).

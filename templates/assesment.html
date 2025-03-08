@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assessment - Smart Career Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Smart Career Advisor</div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('routes.index') }}">Home</a></li>
+                <li><a href="{{ url_for('routes.assessment') }}">Assessment</a></li>
+                <li><a href="{{ url_for('routes.job_market_analysis') }}">Job Market Analysis</a></li>
+                <li><a href="{{ url_for('routes.register') }}">Register</a></li>
+                <li><a href="{{ url_for('routes.resume_review') }}">Resume Review</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1>Comprehensive Career Assessment</h1>
+        <p>Select your educational background, skills, and career interests to receive personalized job recommendations.</p>
+
+        <form id="assessmentForm">
+            <!-- Question 1: Education Level -->
+            <label for="education">Highest Level of Education:</label>
+            <select id="education" name="education" required>
+                <option value="">Select your education level</option>
+                <option value="High School">High School</option>
+                <option value="Associate Degree">Associate Degree</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="PhD">PhD</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Vocational Training">Vocational Training</option>
+                <option value="Self-Taught">Self-Taught</option>
+            </select>
+
+            <!-- Question 2: Primary Skills (Multi-Select) -->
+            <label>Select Your Skills (Choose Multiple):</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="skills" value="Programming"> Programming</label>
+                <label><input type="checkbox" name="skills" value="Data Analysis"> Data Analysis</label>
+                <label><input type="checkbox" name="skills" value="Cybersecurity"> Cybersecurity</label>
+                <label><input type="checkbox" name="skills" value="Cloud Computing"> Cloud Computing</label>
+                <label><input type="checkbox" name="skills" value="Digital Marketing"> Digital Marketing</label>
+                <label><input type="checkbox" name="skills" value="Project Management"> Project Management</label>
+                <label><input type="checkbox" name="skills" value="Graphic Design"> Graphic Design</label>
+                <label><input type="checkbox" name="skills" value="UX/UI Design"> UX/UI Design</label>
+                <label><input type="checkbox" name="skills" value="Content Writing"> Content Writing</label>
+                <label><input type="checkbox" name="skills" value="Financial Analysis"> Financial Analysis</label>
+                <label><input type="checkbox" name="skills" value="Sales & Negotiation"> Sales & Negotiation</label>
+                <label><input type="checkbox" name="skills" value="Customer Service"> Customer Service</label>
+                <label><input type="checkbox" name="skills" value="Business Development"> Business Development</label>
+                <label><input type="checkbox" name="skills" value="Networking & IT Support"> Networking & IT Support</label>
+                <label><input type="checkbox" name="skills" value="AI & Machine Learning"> AI & Machine Learning</label>
+                <label><input type="checkbox" name="skills" value="Game Development"> Game Development</label>
+                <label><input type="checkbox" name="skills" value="Legal & Compliance"> Legal & Compliance</label>
+                <label><input type="checkbox" name="skills" value="HR & Recruitment"> HR & Recruitment</label>
+                <label><input type="checkbox" name="skills" value="Medical & Healthcare"> Medical & Healthcare</label>
+            </div>
+
+            <!-- Question 3: Career Interests (Multi-Select) -->
+            <label>Select Your Career Interests (Choose Multiple):</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="interests" value="Software Engineering"> Software Engineering</label>
+                <label><input type="checkbox" name="interests" value="Data Science"> Data Science</label>
+                <label><input type="checkbox" name="interests" value="AI & Machine Learning"> AI & Machine Learning</label>
+                <label><input type="checkbox" name="interests" value="Cybersecurity"> Cybersecurity</label>
+                <label><input type="checkbox" name="interests" value="Digital Marketing"> Digital Marketing</label>
+                <label><input type="checkbox" name="interests" value="Product Management"> Product Management</label>
+                <label><input type="checkbox" name="interests" value="Financial Consulting"> Financial Consulting</label>
+                <label><input type="checkbox" name="interests" value="Project Management"> Project Management</label>
+                <label><input type="checkbox" name="interests" value="Graphic Design"> Graphic Design</label>
+                <label><input type="checkbox" name="interests" value="Content Creation & Blogging"> Content Creation & Blogging</label>
+                <label><input type="checkbox" name="interests" value="Legal & Compliance"> Legal & Compliance</label>
+                <label><input type="checkbox" name="interests" value="Healthcare & Medicine"> Healthcare & Medicine</label>
+                <label><input type="checkbox" name="interests" value="Human Resources"> Human Resources</label>
+                <label><input type="checkbox" name="interests" value="Sales & Business Development"> Sales & Business Development</label>
+                <label><input type="checkbox" name="interests" value="Customer Support & Service"> Customer Support & Service</label>
+                <label><input type="checkbox" name="interests" value="Game Development"> Game Development</label>
+                <label><input type="checkbox" name="interests" value="E-Commerce & Retail"> E-Commerce & Retail</label>
+                <label><input type="checkbox" name="interests" value="Networking & IT Support"> Networking & IT Support</label>
+                <label><input type="checkbox" name="interests" value="Entrepreneurship & Startups"> Entrepreneurship & Startups</label>
+            </div>
+
+            <button type="submit" class="btn">Submit Assessment</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Smart Career Advisor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('assessmentForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const education = document.getElementById('education').value;
+            const skills = Array.from(document.querySelectorAll('input[name="skills"]:checked')).map(cb => cb.value);
+            const interests = Array.from(document.querySelectorAll('input[name="interests"]:checked')).map(cb => cb.value);
+            
+            const assessmentData = { education, skills, interests };
+
+            try {
+                const response = await fetch('/api/assessment', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(assessmentData)
+                });
+
+                if (response.ok) {
+                    alert("Assessment submitted successfully!");
+                } else {
+                    alert("Error submitting assessment.");
+                }
+            } catch (error) {
+                console.error("Error:", error);
+                alert("An error occurred. Please try again.");
+            }
+        });
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

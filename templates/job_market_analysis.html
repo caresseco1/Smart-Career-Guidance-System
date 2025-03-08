@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Market Analysis - Smart Career Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Smart Career Advisor</div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('routes.index') }}">Home</a></li>
+                <li><a href="{{ url_for('routes.assessment') }}">Assessment</a></li>
+                <li><a href="{{ url_for('routes.job_market_analysis') }}">Job Market Analysis</a></li>
+                <li><a href="{{ url_for('routes.register') }}">Register</a></li>
+                <li><a href="{{ url_for('routes.resume_review') }}">Resume Review</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Job Market Analysis</h1>
+        <p>Stay ahead with our in-depth analysis of current job market trends.</p>
+        <!-- Add job market analysis content here -->
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Smart Career Advisor. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

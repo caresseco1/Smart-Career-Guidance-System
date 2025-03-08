@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Career Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Smart Career Advisor</div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('routes.index') }}">Home</a></li>
+                <li><a href="{{ url_for('routes.assessment') }}">Assessment</a></li>
+                <li><a href="{{ url_for('routes.login') }}">Login</a></li>
+                <li><a href="{{ url_for('routes.job_market_analysis') }}">Job Market Analysis</a></li>
+                <li><a href="{{ url_for('routes.assessment') }}">Assessment</a></li>
+                <li><a href="{{ url_for('routes.register') }}">Register</a></li>
+                <li><a href="{{ url_for('routes.resume_review') }}">Resume Review</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 class="hero-title">Welcome to Smart Career Advisor</h1>
+            <p class="hero-subtitle">We help you find the perfect career path.</p>
+            <a href="#services" class="btn">Explore More</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of career experts and data scientists focused on helping individuals find their ideal career paths through personalized recommendations.</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Career Assessment</h3>
+                    <p>We provide comprehensive career assessments to identify your strengths and interests.</p>
+                    <a href="{{ url_for('routes.assessment') }}" class="btn">Get Started</a>
+                </div>
+                <div class="card">
+                    <h3>Resume Review</h3>
+                    <p>Our experts will review and optimize your resume to make it stand out.</p>
+                    <a href="{{ url_for('routes.resume_review') }}" class="btn">Get Started</a>
+                </div>
+                <div class="card">
+                    <h3>Job Market Analysis</h3>
+                    <p>Stay ahead with our in-depth analysis of current job market trends.</p>
+                    <a href="{{ url_for('routes.job_market_analysis') }}" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="POST" action="/contact">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Smart Career Advisor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
