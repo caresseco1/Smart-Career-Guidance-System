@@ -1,135 +1,43 @@
-/* General Styling */
-body {
-    font-family: 'Garamond', 'Times New Roman', Times, serif;
+/* General Styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #0e5a98;
-    color: #000000;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
     line-height: 1.6;
 }
 
-/* Container for centering content */
-.container {
-    max-width: 800px;
-    margin: 60px auto;
-    padding: 40px;
-    background-color: #caf4ff;
-    border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Heading Styling */
-h2 {
-    color: #2c3e50;
-    font-size: 2.2em;
-    margin-bottom: 15px;
-}
-
-/* Styling for Resume Input */
-textarea {
-    width: 100%;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 7px;
-    font-size: 1em;
-    resize: vertical;
-    background-color: #ecf5fb;
-    color: #15055b;
-    min-height: 200px;
-    transition: border-color 0.3s ease;
-}
-
-textarea:focus {
-    border-color: #3498db;
-    outline: none;
-    box-shadow: 0 0 6px rgba(52, 152, 219, 0.4);
-}
-
-/* Button Styling */
-button {
-    display: block;
-    width: 102%;
-    padding: 15px;
-    margin-top: 10px;
-    background: linear-gradient(135deg, #66a7d6, #187ebd);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-
-button:hover {
-    background: linear-gradient(135deg, #2980b9, #1f6690);
-    transform: scale(1.03);
-}
-
-/* Prediction Result Styling */
-#result {
-    margin-top: 25px;
-}
-
-#predictedRole {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-/* Job Listings Styling */
-.job-card {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 12px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-    text-align: left;
-}
-
-.job-card h3 {
-    margin: 0;
-    color: #2c3e50;
-}
-
-.job-card p {
-    margin: 5px 0;
-    color: #555;
-}
-
-/* Job Apply Button */
-.job-card a {
+/* Tooltip Styles */
+.tooltip {
+    position: relative;
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.3s ease-in-out;
 }
 
-.job-card a:hover {
-    background: #2980b9;
-    transform: scale(1.05);
-}
-
-/* Footer Styling */
-footer {
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
     text-align: center;
-    margin-top: 200px;
-    padding: 15px;
-    background-color: #1b4774;
-    color: white;
-    font-size: 0.9em;
-    border-radius: 0 0 12px 12px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the text */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-footer a {
-    color: #3498db;
-    text-decoration: none;
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
+/* Additional styles can be added here */

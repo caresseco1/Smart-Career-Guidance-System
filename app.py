@@ -1,4 +1,7 @@
-from flask import Flask, jsonify, render_template, request, flash, redirect, url_for
+import http
+import os
+import bcrypt
+from flask import Flask, json, jsonify, render_template, request, flash, redirect, session, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail, Message
 import joblib
@@ -7,6 +10,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import requests  # For making API requests
+from job_market_analysis import fetch_salary_details  # Import the function
 
 nltk.download("stopwords")
 nltk.download("punkt")
@@ -16,7 +20,7 @@ app = Flask(__name__)
 app.secret_key = 'b9d16a3435e4015f7b8b01adba921491'  # Set secret key for session management
 
 # Configure SQLite database
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///feedback.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL') or 'mysql+pymysql://caresse:CareerGo#2024@localhost/careergo'
 db = SQLAlchemy(app)
 
 # Configure Flask-Mail for email notifications
@@ -66,23 +70,23 @@ def fetch_job_listings(job_title, country="in"):
 def home():
     return render_template("index.html")
 
+@app.route("/job_market_analysis", methods=["GET"])
+def job_market_analysis():
+    return render_template("job_market_analysis.html")
+
+@app.route("/get_salary_details", methods=["GET"])
+def get_salary_details():
+    company = request.args.get("company", "Amazon").strip()  # Strip whitespace
+    job_title = request.args.get("job_title", "software developer").strip()  # Strip whitespace
+    salary_data = fetch_salary_details(company, job_title)  # Corrected line
+    
+    return jsonify(salary_data)
+
 @app.route("/assessment")
 def assessment():
     return render_template("assesment.html")
 
-@app.route("/login")
-def login():
-    return render_template("login.html")
-
-@app.route("/register")
-def register():
-    return render_template("register.html")
-
-@app.route("/job_market_analysis")
-def job_market_analysis():
-    return render_template("job_market_analysis.html")
-
-@app.route("/resume_review")
+@app.route("/resume_review", methods=["GET"])
 def resume_review():
     return render_template("resume_review.html")
 
@@ -126,7 +130,13 @@ def predict():
     except Exception as e:
         return jsonify({"Error": str(e)}), 500
 
-# Define Feedback Model
+# Define User Model
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
+    password = db.Column(db.String(255), nullable=False)
+
 class Feedback(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
@@ -137,22 +147,43 @@ class Feedback(db.Model):
 with app.app_context():
     db.create_all()
 
-@app.route('/contact', methods=['POST'])
-def contact():
-    name = request.form['name']
-    email = request.form['email']
-    message = request.form['message']
-    # Save feedback to database
-    new_feedback = Feedback(name=name, email=email, message=message)
-    db.session.add(new_feedback)
+# **Signup Route (Handles AJAX request from Modal)**
+@app.route('/signup', methods=['POST'])
+def signup():
+    data = request.json
+    name = data.get('name')
+    email = data.get('email')
+    password = data.get('password')
+
+    # Check if email already exists
+    if User.query.filter_by(email=email).first():
+        return jsonify({'status': 'error', 'message': 'Email already registered'}), 400
+
+    # Hash Password and Save User
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+    new_user = User(name=name, email=email, password=hashed_password)
+    db.session.add(new_user)
     db.session.commit()
 
-    # Send Email Notification
-    msg = Message("New Feedback Received", sender=email, recipients=["your-email@gmail.com"])
-    msg.body = f"Name: {name}\nEmail: {email}\nMessage:\n{message}"
-    mail.send(msg)
+    return jsonify({'status': 'success', 'message': 'Registration successful!'}), 200
 
-    flash('Your message has been received and emailed successfully!', 'success')
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    user = User.query.filter_by(email=email).first()
+    if user and bcrypt.check_password_hash(user.password, password):
+        session['user_id'] = user.id
+        return jsonify({'status': 'success', 'message': 'Login successful'}), 200
+    else:
+        return jsonify({'status': 'error', 'message': 'Invalid email or password'}), 401
+
+# **Logout Route**
+@app.route('/logout')
+def logout():
+    session.pop('user_id', None)
     return redirect(url_for('home'))
 
 @app.route('/view_feedback')

@@ -6,122 +6,130 @@
     font-family: Arial, sans-serif;
 }
 
-/* Alert Styles */
-.alert {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.alert-success {
-    background-color: #d4edda;
-    color: #155724;
-}
-.alert-error {
-    background-color: #f8d7da;
-    color: #721c24;
-}
-
 body {
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #ffffff, #e0f2ff); /* White to Light Blue */
     color: #333;
 }
 
 /* Navbar */
 .header {
-    background-color: #6a0dad; /* Purple */
+    background: linear-gradient(to right, #002b66, #004aad); /* Dark to Bright Blue */
     color: #ffcc00; /* Yellow */
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
+    color: #0b045b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
 .nav-links {
     list-style: none;
     display: flex;
+    gap: 30px; /* Adjusted spacing between links */
+    padding: 0; /* Ensure no extra padding */
+    margin: 0;
 }
 
 .nav-links li {
-    margin-left: 20px;
+    position: relative;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(5, 22, 121);
     font-size: 16px;
-    transition: 0.3s;
+    font-weight: bold;
+    padding: 12px 18px; /* Added padding inside links */
+    border-radius: 5px; /* Slight rounding for aesthetics */
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
     color: #ffcc00;
+    background: rgba(255, 204, 0, 0.1); /* Light yellow hover effect */
+}
+
+/* Hover Effect: Underline Animation */
+
+.nav-links a:hover::after {
+    width: 100%;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(rgba(0, 77, 153, 0.7), rgba(0, 77, 153, 0.7)), url('hero-bg.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0, 74, 173, 0.8), rgba(0, 74, 173, 0.8)), 
+                url('hero-bg.jpg') center/cover no-repeat;
     color: white;
 }
 
 .hero-title {
-    font-size: 36px;
+    font-size: 42px;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .hero-subtitle {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffcc00; /* Yellow */
-    color: #004d99;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #ffcc00, #ffdb4d); /* Yellow Gradient */
+    color: #003b8b;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-    background-color: #e6b800;
+    background: linear-gradient(to right, #e6b800, #ffcc00);
 }
 
 /* About Section */
 .about {
     padding: 60px 20px;
     text-align: center;
-    background: white;
+    background: linear-gradient(to bottom, #ffffff, #e0f2ff); /* White to Light Blue */
 }
 
 .about h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 15px;
+    color: #004aad;
 }
 
 /* Services Section */
 .services {
     padding: 60px 20px;
     text-align: center;
-    background: #e0f7fa;
+    background: linear-gradient(to bottom, #e0f7ff, #b3e0ff); /* Soft Blue Gradient */
 }
 
 .services h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
+    color: #003b8b;
 }
 
 .service-cards {
@@ -132,16 +140,22 @@ body {
 }
 
 .card {
-    background: white;
+    background: linear-gradient(to bottom, #ffffff, #f0f8ff); /* Light Blue Tint */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
+    color: #004aad;
 }
 
 .card p {
@@ -153,13 +167,17 @@ body {
 .contact {
     padding: 60px 20px;
     text-align: center;
-    background: white;
+    background: linear-gradient(to bottom, #ffffff, #e0f2ff); /* White to Light Blue */
 }
 
 .contact form {
     max-width: 500px;
     margin: 0 auto;
     text-align: left;
+    background: linear-gradient(to right, #f9f9f9, #ffffff); /* Subtle Grey Gradient */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact label {
@@ -171,7 +189,7 @@ body {
 .contact input,
 .contact textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -182,15 +200,94 @@ body {
 }
 
 .contact button {
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
+    background: linear-gradient(to right, #ffcc00, #ffdb4d);
+    color: #003b8b;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: linear-gradient(to right, #e6b800, #ffcc00);
 }
 
 /* Footer */
 .footer {
-    background-color: #004d99;
+    background: linear-gradient(to right, #003b8b, #005fcc);
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Login Form Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(to right, #f9f9f9, #ffffff); /* Subtle Grey Gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Login Heading */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #004aad;
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Focus Effect */
+.login-container input:focus {
+    border-color: #004aad;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 74, 173, 0.5);
+}
+
+/* Login Button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ffcc00, #ffdb4d);
+    color: #003b8b;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container button:hover {
+    background: linear-gradient(to right, #e6b800, #ffcc00);
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #004aad;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
 }

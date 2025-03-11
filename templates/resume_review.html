@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Role Suggestions using Resume</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>CareerPath | Job Role Suggestions</title>
+    <style>
+        :root {
+            --primary: #6366F1;
+            --primary-dark: #4F46E5;
+            --secondary: #7C3AED;
+            --secondary-dark: #6D28D9;
+            --accent: #EC4899;
+            --light: #F9FAFB;
+            --dark: #1F2937;
+            --gray: #6B7280;
+            --lightgray: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        textarea, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid var(--lightgray);
+        }
+
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: var(--primary-dark);
+        }
+
+        .result {
+            margin-top: 20px;
+            text-align: left;
+            padding: 15px;
+            background: var(--lightgray);
+            border-radius: 6px;
+        }
+
+        .job-card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-card a {
+            display: block;
+            margin-top: 10px;
+            color: var(--secondary);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .job-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
@@ -16,20 +109,11 @@
             <button type="submit">Suggest Job Role</button>
         </form>
 
-        <div id="result">
+        <div class="result" id="result">
             <p id="predictedRole"></p>
             <div id="jobListings"></div>
         </div>
     </div>
-
-    <footer>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-            </ul>
-        </nav>
-        <p>© 2025 CareerGo. All rights reserved. | <a href="#">Privacy Policy</a></p>
-    </footer>
 
     <script>
         document.getElementById('resumeForm').onsubmit = async function(event) {
@@ -45,7 +129,7 @@
             const jobListingsDiv = document.getElementById('jobListings');
             jobListingsDiv.innerHTML = ""; // Clear previous results
 
-            if (result["Predicted Job Role"]) {
+            if (result["SuggestedJob Role"]) {
                 predictedRoleElem.innerText = "Suggested Job Role: " + result["Predicted Job Role"];
 
                 if (result["Jobs"] && result["Jobs"].length > 0) {

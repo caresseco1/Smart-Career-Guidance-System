@@ -3,10 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Market Analysis - Smart Career Advisor</title>
-    <meta http-equiv="refresh" content="0; url={{ url_for('auth') }}">
+    <title>CareerPath | Job Salary Analysis</title>
 </head>
 <body>
-    <p>If you are not redirected, <a href="{{ url_for('auth') }}">click here</a>.</p>
+    <h1>Job Market Analysis</h1>
+    <form action="/job_market_analysis" method="get">
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" name="company" value="Amazon">
+        <br>
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" value="software developer">
+        <br>
+        <input type="submit" value="Get Salary Info">
+    </form>
+
+    <style>
+        :root {
+            --primary: #6366F1;
+            --primary-dark: #4F46E5;
+            --secondary: #7C3AED;
+            --secondary-dark: #6D28D9;
+            --accent: #EC4899;
+            --light: #F9FAFB;
+            --dark: #1F2937;
+            --gray: #6B7280;
+            --lightgray: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid var(--lightgray);
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: var(--primary-dark);
+        }
+
+        .result {
+            margin-top: 20px;
+            text-align: left;
+            padding: 15px;
+            background: var(--lightgray);
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Job Salary Analysis</h2>
+        <input type="text" id="companyName" placeholder="Enter Company Name" required>
+        <input type="text" id="jobTitle" placeholder="Enter Job Title" required>
+        <button onclick="fetchSalaryDetails()">Search</button>
+        <div class="result" id="salaryResult"></div>
+    </div>
+
+    <script>
+        function fetchSalaryDetails() {
+            let company = document.getElementById("companyName").value;
+            let jobTitle = document.getElementById("jobTitle").value;
+
+            if (!company || !jobTitle) {
+                alert("Please enter both company name and job title!");
+                return;
+            }
+
+            fetch(`/get_salary_details?company=${encodeURIComponent(company)}&job_title=${encodeURIComponent(jobTitle)}`)
+                .then(response => response.json())
+                .then(data => {
+                    let resultDiv = document.getElementById("salaryResult");
+                    resultDiv.innerHTML = data.error 
+                        ? `<p style="color:red;">${data.error}</p>`
+                        : `<h3>${data.job_title} at ${data.company}</h3>
+                           <p><strong>Average Salary:</strong> ${data.average_salary || "Not Available"}</p>
+                           <p><strong>Min Salary:</strong> ${data.min_salary || "Not Available"}</p>
+                           <p><strong>Max Salary:</strong> ${data.max_salary || "Not Available"}</p>`;
+                })
+                .catch(error => console.error("Error fetching salary details:", error));
+        }
+    </script>
+
 </body>
+
 </html>
