@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareerPath | Job Role Suggestions</title>
+    <title>CareerGo | Job Role Suggestions</title>
     <style>
         :root {
             --primary: #6366F1;
@@ -109,7 +109,7 @@
             <button type="submit">Suggest Job Role</button>
         </form>
 
-        <div class="result" id="result">
+        <div class="result" id="result" style="display: none;">
             <p id="predictedRole"></p>
             <div id="jobListings"></div>
         </div>
@@ -119,6 +119,7 @@
         document.getElementById('resumeForm').onsubmit = async function(event) {
             event.preventDefault();
             const formData = new FormData(this);
+            document.getElementById('result').style.display = 'block'; // Show loading indicator
             const response = await fetch(this.action, {
                 method: this.method,
                 body: formData
@@ -129,7 +130,7 @@
             const jobListingsDiv = document.getElementById('jobListings');
             jobListingsDiv.innerHTML = ""; // Clear previous results
 
-            if (result["SuggestedJob Role"]) {
+            if (result["Predicted Job Role"]) {
                 predictedRoleElem.innerText = "Suggested Job Role: " + result["Predicted Job Role"];
 
                 if (result["Jobs"] && result["Jobs"].length > 0) {
