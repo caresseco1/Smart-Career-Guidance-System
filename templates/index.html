@@ -748,20 +748,19 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <nav>
-                <a href="#" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
-                <div class="nav-links">
-                    <a href="#features">Features</a>
-                    <a href="#contact">Contact</a>
-                    <a href="/resume_review">Resume Review</a>
-                    <a href="/job_market_analysis">Job Market Analysis</a>
-                </div>
+<nav>
+    <a href="#" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
+    <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+        <a href="/resume_review">Resume Review</a>
+    </div>
 
-                <div class="auth-buttons">
-                    <button class="btn btn-secondary" id="loginBtn">Log In</button>
-                    <button class="btn btn-primary" id="signupBtn">Sign Up</button>
-                </div>
-            </nav>
+    <div class="auth-buttons">
+        <button class="btn btn-secondary" id="loginBtn">Log In</button>
+        <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+    </div>
+</nav>
         </div>
     </header>
 
@@ -787,65 +786,21 @@
                 <p>Leverage our advanced AI-powered tools to optimize your job search strategy and stand out from the
                     competition.</p>
             </div>
-            <div class="features-grid">
-                <div class="feature-card" id="resumeReviewerCard">
-                    <div class="feature-icon">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <h3>Resume Reviewer</h3>
-                    <p>Get instant AI-powered feedback on your resume with industry-specific recommendations and ATS
-                        optimization tips.</p>
-                </div>
-                <div class="feature-card" id="jobMarketCard">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Job Market Analysis</h3>
-                    <p>Explore real-time job market trends, in-demand skills, and salary expectations for your target
-                        roles.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>Skill Assessment</h3>
-                    <p>Identify your skill gaps and get personalized learning recommendations to enhance your
-                        marketability.</p>
-                </div>
-            </div>
+<div class="features-grid">
+    <div class="feature-card" id="resumeReviewerCard">
+        <div class="feature-icon">
+            <i class="fas fa-file-alt"></i>
+        </div>
+        <h3>Resume Reviewer</h3>
+        <p>Get instant AI-powered feedback on your resume with industry-specific recommendations and ATS
+            optimization tips.</p>
+    </div>
+</div>
         </div>
     </section>
 
-    <!-- Job Market Analysis Section -->
-    <section class="job-market" id="job-market">
-        <div class="container">
-            <div class="section-title">
-                <h2>Job Market Insights</h2>
-                <p>Stay ahead with our real-time analysis of industry trends, salary data, and in-demand skills.</p>
-            </div>
-            <div class="stats-container">
-                <div class="stat-card">
-                    <h3>15%</h3>
-                    <p>Tech Job Growth</p>
-                </div>
-                <div class="stat-card">
-                    <h3>92K</h3>
-                    <p>Average IT Salary</p>
-                </div>
-                <div class="stat-card">
-                    <h3>8.3M</h3>
-                    <p>Open Positions</p>
-                </div>
-                <div class="stat-card">
-                    <h3>42%</h3>
-                    <p>Remote Work</p>
-                </div>
-            </div>
-            <div class="chart-container">
-                <canvas id="jobChart"></canvas>
-            </div>
-        </div>
-    </section>
+<!-- Job Market Analysis Section -->
+<!-- Removed entire job market analysis section -->
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -930,21 +885,19 @@
                 </div>
                 <div class="footer-col">
                     <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#job-market">Job Market</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+<ul class="footer-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
                 </div>
                 <div class="footer-col">
                     <h3>Features</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Resume Review</a></li>
-                        <li><a href="#">Job Market Analysis</a></li>
-                        <li><a href="#">Skill Assessment</a></li>
-                        <li><a href="#">Career Coaching</a></li>
-                    </ul>
+<ul class="footer-links">
+    <li><a href="#">Resume Review</a></li>
+    <li><a href="#">Skill Assessment</a></li>
+    <li><a href="#">Career Coaching</a></li>
+</ul>
                 </div>
                 <div class="footer-col">
                     <h3>Stay Connected</h3>
@@ -1079,89 +1032,8 @@
         </div>
     </div>
 
-    <!-- Job Market Analysis Modal -->
-    <div class="modal" id="jobMarketModal">
-        <div class="modal-content" style="max-width: 800px;">
-            <div class="modal-header">
-                <h2>Job Market Analysis</h2>
-                <span class="close">&times;</span>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label class="form-label">Job Title or Industry</label>
-                    <input type="text" class="form-control"
-                        placeholder="E.g. Data Scientist, Marketing, Software Development">
-                </div>
-                <div style="display: flex; gap: 15px; margin-bottom: 20px;">
-                    <div class="form-group" style="flex: 1;">
-                        <label class="form-label">Location</label>
-                        <input type="text" class="form-control" placeholder="E.g. New York, Remote">
-                    </div>
-                    <div class="form-group" style="flex: 1;">
-                        <label class="form-label">Experience Level</label>
-                        <select class="form-control">
-                            <option>Entry Level</option>
-                            <option>Mid Level</option>
-                            <option>Senior Level</option>
-                            <option>Executive</option>
-                        </select>
-                    </div>
-                </div>
-                <button id="analyzeMarketBtn" class="btn btn-primary" style="width: 100%;">Analyze Market</button>
-
-                <div id="marketResults" style="margin-top: 30px; display: none;">
-                    <h3 style="margin-bottom: 20px; color: var(--secondary);">Market Analysis Results</h3>
-
-                    <div
-                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px;">
-                        <div class="stat-card">
-                            <h3>$85K</h3>
-                            <p>Average Salary</p>
-                        </div>
-                        <div class="stat-card">
-                            <h3>3,450</h3>
-                            <p>Open Positions</p>
-                        </div>
-                        <div class="stat-card">
-                            <h3>+12%</h3>
-                            <p>YoY Growth</p>
-                        </div>
-                    </div>
-
-                    <h4 style="margin-bottom: 15px;">Top In-Demand Skills</h4>
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px;">
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Python</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">SQL</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Machine
-                            Learning</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Data
-                            Analysis</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Cloud
-                            Computing</span>
-                    </div>
-
-                    <h4 style="margin-bottom: 15px;">Top Companies Hiring</h4>
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px;">
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Google</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Amazon</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Microsoft</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Apple</span>
-                        <span
-                            style="background-color: rgba(67, 97, 238, 0.1); color: var(--primary); padding: 8px 15px; border-radius: 20px; font-weight: 500;">Meta</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- Job Market Analysis Modal -->
+<!-- Removed entire job market analysis modal -->
 
     <!-- Simple JavaScript for Modal Interactions -->
     <script>
@@ -1239,13 +1111,7 @@
             }
         });
     
-        // Job Market Analysis Button
-        const analyzeMarketBtn = document.getElementById('analyzeMarketBtn');
-        const marketResults = document.getElementById('marketResults');
-    
-        analyzeMarketBtn.addEventListener('click', () => {
-            marketResults.style.display = 'block';
-        });
+/* Removed job market analysis modal related JavaScript */
     
         // Contact Form Submission
         const form = document.getElementById('contactForm');

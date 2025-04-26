@@ -2,3 +2,10 @@ Flask
 scikit-learn
 pandas
 joblib
+python-docx
+pdfplumber
+nltk
+flask-sqlalchemy
+flask-mail
+bcrypt
+requests

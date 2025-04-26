@@ -103,10 +103,11 @@
 <body>
 
     <div class="container">
-        <h2>Job Role Suggestions using Resume</h2>
+        <h2>Job Role Suggestions Based on Your Resume</h2>
         <form id="resumeForm" action="/predict" method="post">
             <textarea name="resume_text" rows="6" placeholder="Paste your resume text here..."></textarea>
-            <button type="submit">Suggest Job Role</button>
+            <textarea name="skills" rows="3" placeholder="Enter your skills here..."></textarea>
+            <button type="submit">Get Job Role Suggestions</button>
         </form>
 
         <div class="result" id="result" style="display: none;">
@@ -130,8 +131,8 @@
             const jobListingsDiv = document.getElementById('jobListings');
             jobListingsDiv.innerHTML = ""; // Clear previous results
 
-            if (result["Predicted Job Role"]) {
-                predictedRoleElem.innerText = "Suggested Job Role: " + result["Predicted Job Role"];
+            if (result["Suggested Job Roles"]) {  // Updated key to handle multiple roles
+                predictedRoleElem.innerText = "Suggested Job Roles: " + result["Suggested Job Roles"].join(", ");
 
                 if (result["Jobs"] && result["Jobs"].length > 0) {
                     result["Jobs"].forEach(job => {
