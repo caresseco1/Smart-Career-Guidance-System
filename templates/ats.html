@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Score and Analysis | CareerGo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6366F1;
+            --primary-dark: #4F46E5;
+            --secondary: #7C3AED;
+            --secondary-dark: #6D28D9;
+            --accent: #EC4899;
+            --light: #F9FAFB;
+            --dark: #1F2937;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --gray: #6B7280;
+            --lightgray: #E5E7EB;
+            --gradient-start: #8B5CF6;
+            --gradient-mid: #6366F1;
+            --gradient-end: #3B82F6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            padding-top: 80px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 10px;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover:after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.4s;
+            z-index: -1;
+        }
+
+        .btn:hover:before {
+            left: 0;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: white;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Main Content Styles */
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 40px auto 60px;
+            padding: 30px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        input[type="file"] {
+            border: 2px dashed var(--lightgray);
+            padding: 30px;
+            border-radius: 12px;
+            cursor: pointer;
+            text-align: center;
+            color: var(--gray);
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--lightgray);
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button[type="submit"] {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background: linear-gradient(135deg, var(--gradient-mid), var(--primary-dark));
+        }
+
+        /* Results Section */
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: var(--light);
+            border-radius: 12px;
+            display: none;
+        }
+
+        .score-display {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .score-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(var(--success) 0% 75%, var(--lightgray) 75% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .analysis-section {
+            margin-top: 20px;
+        }
+
+        .analysis-section h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .analysis-section p {
+            white-space: pre-wrap;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .container {
+                margin: 20px auto;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                margin: 20px 10px;
+                padding: 15px;
+            }
+
+            .auth-buttons {
+                gap: 10px;
+            }
+
+            .btn {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <a href="/" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#contact">Contact</a>
+                    <a href="/resume_review">Resume Review</a>
+                    <a href="/ats">ATS Score and Analysis</a>
+                </div>
+                <div class="auth-buttons">
+                    <button class="btn btn-secondary" id="loginBtn">Log In</button>
+                    <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+
+    <div class="container">
+        <h1>ATS Score and Analysis</h1>
+        <form id="atsForm" method="POST" enctype="multipart/form-data" action="/ats">
+            <label for="file">Upload Resume (PDF only):</label>
+            <input type="file" id="file" name="file" accept=".pdf" required>
+
+            <label for="job_description">Job Description (optional):</label>
+            <textarea id="job_description" name="job_description" placeholder="Paste job description here..."></textarea>
+
+            <label for="analysis_option">Select Analysis Option:</label>
+            <select id="analysis_option" name="analysis_option">
+                <option value="Quick Scan">Quick Scan</option>
+                <option value="Detailed Analysis">Detailed Analysis</option>
+                <option value="ATS Optimization">ATS Optimization</option>
+            </select>
+
+            <button type="submit">Analyze Resume</button>
+        </form>
+
+        <div id="results" class="results">
+            <div class="score-display">
+                <div class="score-circle" id="scoreCircle">75</div>
+                <h2>ATS Score: <span id="scoreValue">75</span>/100</h2>
+                <p id="scoreFeedback">Good match! Your resume aligns well with the job description.</p>
+            </div>
+
+            <div class="analysis-section">
+                <h3>Analysis Results</h3>
+                <p id="analysisResults"></p>
+            </div>
+
+            <div class="analysis-section">
+                <h3>Recommendations</h3>
+                <p id="recommendations"></p>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 20px 0; background-color: #f9fafb; color: #6b7280; font-size: 14px;">
+        &copy; 2025 CareerGo. All rights reserved.
+    </footer>
+    

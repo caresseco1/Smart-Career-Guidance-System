@@ -32,6 +32,10 @@
 
         body {
             background-color: var(--light);
+            background-image: url('static/employee-career-word1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: var(--dark);
             line-height: 1.6;
         }
@@ -748,19 +752,20 @@
     <!-- Header -->
     <header>
         <div class="container">
-<nav>
-    <a href="#" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
-    <div class="nav-links">
-        <a href="#features">Features</a>
-        <a href="#contact">Contact</a>
-        <a href="/resume_review">Resume Review</a>
-    </div>
+            <nav>
+                <a href="#" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#contact">Contact</a>
+                    <a href="/resume_review">Resume Review</a>
+                    <a href="/ats">ATS Score and Analysis</a>
+                </div>
 
-    <div class="auth-buttons">
-        <button class="btn btn-secondary" id="loginBtn">Log In</button>
-        <button class="btn btn-primary" id="signupBtn">Sign Up</button>
-    </div>
-</nav>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary" id="loginBtn">Log In</a>
+                    <a href="#" class="btn btn-primary" id="signupBtn">Sign Up</a>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -779,28 +784,33 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Smart Career Tools</h2>
-                <p>Leverage our advanced AI-powered tools to optimize your job search strategy and stand out from the
-                    competition.</p>
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-title">
+            <h2>Smart Career Tools</h2>
+            <p>Leverage our advanced AI-powered tools to optimize your job search strategy and stand out from the competition.</p>
+        </div>
+        <div class="features-grid">
+            <!-- Resume Reviewer Card -->
+            <div class="feature-card" id="resumeReviewerCard" onclick="window.location.href='/resume_review';">
+                <div class="feature-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Resume Reviewer</h3>
+                <p>Get personalized job role suggestions and expert resume reviews to land your dream job.</p>
             </div>
-<div class="features-grid">
-    <div class="feature-card" id="resumeReviewerCard">
-        <div class="feature-icon">
-            <i class="fas fa-file-alt"></i>
+            <!-- ATS Score and Analysis Card -->
+            <div class="feature-card" id="atsCard" onclick="window.location.href='/ats';">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>ATS Score and Analysis</h3>
+                <p>Get instant AI-powered feedback on your resume with industry-specific recommendations and ATS optimization tips.</p>
+            </div>
         </div>
-        <h3>Resume Reviewer</h3>
-        <p>Get instant AI-powered feedback on your resume with industry-specific recommendations and ATS
-            optimization tips.</p>
     </div>
-</div>
-        </div>
-    </section>
+</section>
 
-<!-- Job Market Analysis Section -->
-<!-- Removed entire job market analysis section -->
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -849,7 +859,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Office Location</h4>
-                            <p>123 Career Street, San Francisco, CA 94107</p>
+                            <p>ST.Francis Institue of Technology</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -880,24 +890,24 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col">
-                    <h3>CareerPath</h3>
+                    <h3>CareerGo</h3>
                     <p>Your all-in-one platform for career growth and job search optimization.</p>
                 </div>
                 <div class="footer-col">
                     <h3>Quick Links</h3>
-<ul class="footer-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ul>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Features</h3>
-<ul class="footer-links">
-    <li><a href="#">Resume Review</a></li>
-    <li><a href="#">Skill Assessment</a></li>
-    <li><a href="#">Career Coaching</a></li>
-</ul>
+                    <ul class="footer-links">
+                        <li><a href="#">Resume Review</a></li>
+                        <li><a href="#">ATS Score and Analysis</a></li>
+                        
+                    </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Stay Connected</h3>
@@ -910,7 +920,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 CareerPath. All rights reserved.</p>
+                <p>&copy; 2025 CareerGo. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -981,59 +991,7 @@
         </div>
     </div>
 
-    <!-- Resume Reviewer Modal -->
-    <div class="modal" id="resumeModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Resume Reviewer</h2>
-                <span class="close">&times;</span>
-            </div>
-            <div class="modal-body">
-                <div class="tab-container">
-                    <div class="tab active" data-tab="upload">Upload Resume</div>
-                    <div class="tab" data-tab="results">Review Results</div>
-                </div>
-                <div class="tab-content active" id="uploadTab">
-                    <div class="resume-drop" id="resumeDrop">
-                        <i class="fas fa-file-upload"
-                            style="font-size: 48px; color: var(--gray); margin-bottom: 20px;"></i>
-                        <h3>Drag & Drop Your Resume</h3>
-                        <p>or <span style="color: var(--primary); font-weight: 500;">browse files</span></p>
-                        <input type="file" id="resumeFile" style="display: none;">
-                    </div>
-                    <p style="text-align: center; color: var(--gray); margin-bottom: 20px;">Supported formats: PDF,
-                        DOCX, DOC (Max 5MB)</p>
-                    <button id="analyzeResumeBtn" class="btn btn-primary" style="width: 100%;" disabled>Analyze
-                        Resume</button>
-                </div>
-                <div class="tab-content" id="resultsTab">
-                    <div style="text-align: center; padding: 40px 0;">
-                        <div class="feature-icon" style="width: 80px; height: 80px; margin-bottom: 30px;">
-                            <i class="fas fa-check" style="font-size: 32px;"></i>
-                        </div>
-                        <h3 style="margin-bottom: 10px; color: var(--secondary);">Resume Analysis Complete</h3>
-                        <p style="color: var(--gray); margin-bottom: 30px;">Your resume has been analyzed. Here are some
-                            insights:</p>
-                        <div
-                            style="background-color: var(--light); border-radius: 10px; padding: 20px; text-align: left; margin-bottom: 20px;">
-                            <h4>Resume Score: <span style="color: var(--primary);">85/100</span></h4>
-                            <p>Your resume is strong, but there's room for improvement.</p>
-                            <h4 style="margin-top: 20px;">Key Recommendations:</h4>
-                            <ul style="margin-left: 20px; color: var(--gray);">
-                                <li>Add more quantifiable achievements</li>
-                                <li>Include relevant keywords for ATS optimization</li>
-                                <li>Strengthen your professional summary</li>
-                            </ul>
-                        </div>
-                        <button class="btn btn-primary">Download Detailed Report</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- Job Market Analysis Modal -->
-<!-- Removed entire job market analysis modal -->
+    
 
     <!-- Simple JavaScript for Modal Interactions -->
     <script>
@@ -1086,7 +1044,7 @@
     
                 const targetTab = tab.getAttribute('data-tab');
                 tabContents.forEach(content => {
-                    if (content.id === `${targetTab}Tab`) {
+                    if (content.id === targetTab + 'Tab') {
                         content.classList.add('active');
                     } else {
                         content.classList.remove('active');
@@ -1111,7 +1069,13 @@
             }
         });
     
-/* Removed job market analysis modal related JavaScript */
+        // Job Market Analysis Button
+        const analyzeMarketBtn = document.getElementById('analyzeMarketBtn');
+        const marketResults = document.getElementById('marketResults');
+    
+        analyzeMarketBtn.addEventListener('click', () => {
+            marketResults.style.display = 'block';
+        });
     
         // Contact Form Submission
         const form = document.getElementById('contactForm');

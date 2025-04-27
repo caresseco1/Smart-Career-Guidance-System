@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CareerGo | Job Role Suggestions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
             --primary: #6366F1;
@@ -15,6 +16,8 @@
             --dark: #1F2937;
             --gray: #6B7280;
             --lightgray: #E5E7EB;
+            --gradient-start: #6366F1;
+            --gradient-end: #7C3AED;
         }
 
         * {
@@ -27,17 +30,136 @@
         body {
             background-color: var(--light);
             color: var(--dark);
-            text-align: center;
-            padding: 30px;
+            padding-top: 80px;
         }
 
+        /* Nav Bar Styles */
+        header {
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .logo i {
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover:after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.4s;
+            z-index: -1;
+        }
+
+        .btn:hover:before {
+            left: 0;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: white;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Main Content Styles */
         .container {
             max-width: 1200px;
-            margin: auto;
+            margin: 40px auto;
             padding: 40px;
             background: white;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         h2 {
@@ -101,6 +223,21 @@
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/" class="logo"><i class="fas fa-briefcase"></i> Career<span>Go</span></a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+                <a href="/resume_review">Resume Review</a>
+                <a href="/ats">ATS score and Analysis</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn btn-secondary" id="loginBtn">Log In</button>
+                <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+            </div>
+        </nav>
+    </header>
 
     <div class="container">
         <h2>Job Role Suggestions Based on Your Resume</h2>
@@ -153,7 +290,19 @@
                 predictedRoleElem.innerText = "Error: " + result["Error"];
             }
         };
+
+        // Add event listeners for auth buttons
+        document.getElementById('loginBtn').addEventListener('click', function() {
+            // Add your login functionality here
+            alert('Login functionality will be implemented here');
+        });
+
+        document.getElementById('signupBtn').addEventListener('click', function() {
+            // Add your signup functionality here
+            alert('Signup functionality will be implemented here');
+        });
     </script>
 
-</body>
-</html>
+<footer style="text-align: center; padding: 20px 0; background-color: #f9fafb; color: #6b7280; font-size: 14px;">
+    &copy; 2025 CareerGo. All rights reserved.
+</footer>

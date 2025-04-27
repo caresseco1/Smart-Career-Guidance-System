@@ -132,18 +132,43 @@ def resume_review():
                 flash('No selected file')
                 return redirect(request.url)
             
-            if file:
+            if file and file.filename.endswith('.pdf'):
                 # Save file temporarily
                 filename = os.path.join('uploads', file.filename)
                 os.makedirs('uploads', exist_ok=True)
                 file.save(filename)
                 
+                # Read PDF text
+                pdf_text = read_pdf(filename)
+                
                 # Get job description if provided
                 job_description = request.form.get('job_description', '')
                 
-                # Removed ATS checker usage
-                # Return error since ATS checker removed
-                flash('ATS Score Checker functionality removed')
+                # Suggest jobs based on resume text
+                suggested_jobs = suggest_jobs(pdf_text, score_threshold=0.0, top_n=5)
+                
+                # Fetch job listings for suggested jobs
+                job_listings = []
+                for job in suggested_jobs:
+                    listings = fetch_job_listings(job, country="in")
+                    job_listings.extend(listings)
+                
+                # Prepare jobs data for template
+                jobs = []
+                for job in job_listings:
+                    jobs.append({
+                        "title": job.get("job_title", "N/A"),
+                        "company": job.get("employer_name", "N/A"),
+                        "location": job.get("job_location", "N/A"),
+                        "apply_link": job.get("job_apply_link", "#")
+                    })
+                
+                return render_template("resume_review.html",
+                                       suggested_jobs=suggested_jobs,
+                                       jobs=jobs,
+                                       job_description=job_description)
+            else:
+                flash('Invalid file type. Please upload a PDF.')
                 return redirect(request.url)
         
         # Handle text input
@@ -155,9 +180,29 @@ def resume_review():
                 flash('No resume text provided')
                 return redirect(request.url)
             
-            # Removed ATS checker usage
-            flash('ATS Score Checker functionality removed')
-            return redirect(request.url)
+            # Suggest jobs based on resume text
+            suggested_jobs = suggest_jobs(resume_text, score_threshold=0.0, top_n=5)
+            
+            # Fetch job listings for suggested jobs
+            job_listings = []
+            for job in suggested_jobs:
+                listings = fetch_job_listings(job, country="in")
+                job_listings.extend(listings)
+            
+            # Prepare jobs data for template
+            jobs = []
+            for job in job_listings:
+                jobs.append({
+                    "title": job.get("job_title", "N/A"),
+                    "company": job.get("employer_name", "N/A"),
+                    "location": job.get("job_location", "N/A"),
+                    "apply_link": job.get("job_apply_link", "#")
+                })
+            
+            return render_template("resume_review.html",
+                                   suggested_jobs=suggested_jobs,
+                                   jobs=jobs,
+                                   job_description=job_description)
     
     return render_template("resume_review.html")
 
@@ -223,7 +268,8 @@ def predict():
         })
 
     except Exception as e:
-        return jsonify({"Error": str(e)}), 500
+        error_message = str(e)
+        return jsonify({"Error": error_message}), 500
 
 # Define User Model
 class User(db.Model):
@@ -286,6 +332,146 @@ def logout():
 def view_feedback():
     feedbacks = Feedback.query.all()
     return render_template("feedback.html", feedbacks=feedbacks)
+
+from werkzeug.utils import secure_filename
+from dotenv import load_dotenv
+import google.generativeai as genai
+from PyPDF2 import PdfReader
+import os
+
+# Load environment variables and configure API
+load_dotenv()
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+
+app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['ALLOWED_EXTENSIONS'] = {'pdf'}
+
+# Ensure upload folder exists
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
+
+def get_gemini_output(pdf_text, prompt):
+    response = gemini_model.generate_content([pdf_text, prompt])
+    return response.text
+
+def read_pdf(filepath):
+    pdf_reader = PdfReader(filepath)
+    pdf_text = ""
+    for page in pdf_reader.pages:
+        pdf_text += page.extract_text()
+    return pdf_text
+
+import re
+
+def clean_markdown(text):
+    # Remove markdown symbols like #, *, **, -, etc.
+    text = re.sub(r'[#*`>-]', '', text)
+    # Replace multiple newlines with single newline
+    text = re.sub(r'\n+', '\n', text)
+    return text.strip()
+
+import logging
+
+@app.route("/ats", methods=["GET", "POST"])
+def ats():
+    if request.method == "POST":
+        logging.info("Received POST request for /ats")
+        if "file" not in request.files:
+            logging.error("No file part in request")
+            flash("No file part in request")
+            return redirect(request.url)
+        
+        file = request.files["file"]
+        job_description = request.form.get("job_description", "")
+        analysis_option = request.form.get("analysis_option", "Quick Scan")
+        
+        if file.filename == "":
+            logging.error("No selected file")
+            flash("No selected file")
+            return redirect(request.url)
+        
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            filepath = os.path.join(app.config["UPLOAD_FOLDER"], filename)
+            file.save(filepath)
+            logging.info(f"File saved to {filepath}")
+            
+            try:
+                pdf_text = read_pdf(filepath)
+                logging.info("PDF text extracted")
+                
+                if analysis_option == "Quick Scan":
+                    prompt = f"""
+                    You are ResumeChecker, an expert in resume analysis. Provide a quick scan of the following resume:
+                    
+                    1. Identify the most suitable profession for this resume.
+                    2. List 3 key strengths of the resume.
+                    3. Suggest 2 quick improvements.
+                    4. Give an overall ATS score out of 100.
+                    
+                    Resume text: {pdf_text}
+                    Job description (if provided): {job_description}
+                    """
+                elif analysis_option == "Detailed Analysis":
+                    prompt = f"""
+                    You are ResumeChecker, an expert in resume analysis. Provide a detailed analysis of the following resume:
+                    
+                    1. Identify the most suitable profession for this resume.
+                    2. List 5 strengths of the resume.
+                    3. Suggest 3-5 areas for improvement with specific recommendations.
+                    4. Rate the following aspects out of 10: Impact, Brevity, Style, Structure, Skills.
+                    5. Provide a brief review of each major section (e.g., Summary, Experience, Education).
+                    6. Give an overall ATS score out of 100 with a breakdown of the scoring.
+                    
+                    Resume text: {pdf_text}
+                    Job description (if provided): {job_description}
+                    """
+                else:  # ATS Optimization
+                    prompt = f"""
+                    You are ResumeChecker, an expert in ATS optimization. Analyze the following resume and provide optimization suggestions:
+                    
+                    1. Identify keywords from the job description that should be included in the resume.
+                    2. Suggest reformatting or restructuring to improve ATS readability.
+                    3. Recommend changes to improve keyword density without keyword stuffing.
+                    4. Provide 3-5 bullet points on how to tailor this resume for the specific job description.
+                    5. Give an ATS compatibility score out of 100 and explain how to improve it.
+                    
+                    Resume text: {pdf_text}
+                    Job description: {job_description}
+                    """
+                
+                try:
+                    response = get_gemini_output(pdf_text, prompt)
+                    response = clean_markdown(response)
+                    logging.info("Gemini API call successful")
+                except Exception as e:
+                    error_message = str(e)
+                    logging.error(f"Gemini API error: {error_message}")
+                    if "ResourceExhausted" in error_message or "quota" in error_message.lower():
+                        error_message = "API quota exceeded. Please try again later."
+                    return render_template("error.html", error=error_message)
+                
+                if os.path.exists(filepath):
+                    os.remove(filepath)
+                    logging.info(f"Removed uploaded file {filepath}")
+                
+                return render_template("results.html",
+                                       response=response,
+                                       job_description=job_description,
+                                       analysis_option=analysis_option)
+            
+            except Exception as e:
+                logging.error(f"Error processing ATS request: {str(e)}")
+                if os.path.exists(filepath):
+                    os.remove(filepath)
+                    logging.info(f"Removed uploaded file {filepath} after error")
+                return render_template("error.html", error=str(e))
+    
+    return render_template("ats.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
