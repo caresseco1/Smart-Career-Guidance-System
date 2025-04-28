@@ -31,7 +31,7 @@ app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
 app.config["MAIL_USERNAME"] = "caressecorreia@gmail.com"  # Replace with your email
-app.config["MAIL_PASSWORD"] = "xonq obnu rnnj efqs"  # Use App Password if using Gmail
+app.config["MAIL_PASSWORD"] = "xonqobnurnnjefqs"  # Use App Password if using Gmail
 
 mail = Mail(app)
 
