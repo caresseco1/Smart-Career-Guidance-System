@@ -20,18 +20,18 @@ nltk.download("punkt")
 
 # Initialize Flask app
 app = Flask(__name__)
-app.secret_key = 'b9d16a3435e4015f7b8b01adba921491'  # Set secret key for session management
+app.secret_key = ''  # Set secret key for session management
 
 # Configure SQLite database
-app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://caresse:CareerGo#2024@localhost/careergo'  # Temporarily using hardcoded credentials for testing
+app.config["SQLALCHEMY_DATABASE_URI"] = ''  # Temporarily using hardcoded credentials for testing
 db = SQLAlchemy(app)
 
 # Configure Flask-Mail for email notifications
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "caressecorreia@gmail.com"  # Replace with your email
-app.config["MAIL_PASSWORD"] = "xonqobnurnnjefqs"  # Use App Password if using Gmail
+app.config["MAIL_USERNAME"] = ""  # Replace with your email
+app.config["MAIL_PASSWORD"] = ""  # Use App Password if using Gmail
 
 mail = Mail(app)
 
@@ -40,7 +40,7 @@ model = joblib.load("model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 # JSearch API Configuration
-JSEARCH_API_KEY = "b61bbb41dfmsh6854e2ea484a585p12bd6ejsnd9aea51c469a"  # Replace with your JSearch API key
+JSEARCH_API_KEY = ""  # Replace with your JSearch API key
 JSEARCH_API_URL = "https://jsearch.p.rapidapi.com/search"
 
 # Function to clean and preprocess resume text
